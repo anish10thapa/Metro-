@@ -1,0 +1,2412 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Metro Restaurant &amp; Bar | Best Dining &amp; Nightlife in Itahari, Nepal</title>
+<meta name="description" content="Metro Restaurant &amp; Bar in Itahari, Nepal — premium dining, craft cocktails, and nightlife. Authentic Nepali, Indian, Chinese &amp; Continental cuisine since 2014."/>
+<meta name="keywords" content="Metro Restaurant and Bar Itahari, restaurant in Itahari, best bar in Itahari, nightlife in Itahari, Itahari Nepal dining, premium restaurant eastern Nepal"/>
+<link rel="canonical" href="https://www.metroitahari.com.np/"/>
+<meta property="og:type" content="restaurant"/>
+<meta property="og:title" content="Metro Restaurant &amp; Bar | Itahari, Nepal"/>
+<meta property="og:description" content="Premium dining, craft cocktails &amp; live nightlife in the heart of Itahari. Experience Metro."/>
+<meta property="og:url" content="https://www.metroitahari.com.np/"/>
+<meta property="og:image" content="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=1200"/>
+<meta property="og:locale" content="en_NP"/>
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:title" content="Metro Restaurant &amp; Bar | Itahari, Nepal"/>
+<meta name="twitter:description" content="Premium dining, craft cocktails &amp; live nightlife in the heart of Itahari."/>
+<meta name="twitter:image" content="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=1200"/>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600&family=Josefin+Sans:wght@100;200;300;400;600&family=Playfair+Display:ital,wght@0,400;1,400&display=swap" rel="stylesheet"/>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":["Restaurant","BarOrPub"],"name":"Metro Restaurant and Bar","image":"https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=1200","url":"https://www.metroitahari.com.np/","telephone":"+977-25-580123","priceRange":"NPR 200–800","servesCuisine":["Nepali","Indian","Chinese","Continental"],"address":{"@type":"PostalAddress","streetAddress":"Mahendra Highway Chowk, Ward No. 5","addressLocality":"Itahari","addressRegion":"Koshi Province","postalCode":"56705","addressCountry":"NP"},"geo":{"@type":"GeoCoordinates","latitude":26.6651,"longitude":87.2786},"openingHoursSpecification":[{"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday"],"opens":"11:00","closes":"23:00"},{"@type":"OpeningHoursSpecification","dayOfWeek":["Friday","Saturday"],"opens":"11:00","closes":"00:00"},{"@type":"OpeningHoursSpecification","dayOfWeek":["Sunday"],"opens":"12:00","closes":"22:00"}],"aggregateRating":{"@type":"AggregateRating","ratingValue":"4.6","reviewCount":"312"}}
+</script>
+<style>
+:root{
+  --gold:#c9a14a;--gold-light:#e8c97a;--gold-dark:#8a6a28;--gold-xdark:#5a4018;
+  --deep:#07050300;--dark:#0e0b06;--surface:#141009;--surface2:#1c1710;--surface3:#23201a;
+  --cream:#f4ecd8;--cream-dim:#b8a888;--cream-faint:#6a5f50;
+  --font-display:'Cormorant Garamond',Georgia,serif;
+  --font-ui:'Josefin Sans',sans-serif;
+  --font-play:'Playfair Display',serif;
+}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;font-size:16px}
+body{background:#0a0704;color:var(--cream);font-family:var(--font-ui);overflow-x:hidden;cursor:none}
+img{display:block}
+::-webkit-scrollbar{width:3px}
+::-webkit-scrollbar-track{background:#0a0704}
+::-webkit-scrollbar-thumb{background:var(--gold-dark)}
+
+/* ── CUSTOM CURSOR ── */
+#cursor{position:fixed;width:8px;height:8px;background:var(--gold);border-radius:50%;pointer-events:none;z-index:99999;transform:translate(-50%,-50%);transition:width .2s,height .2s,opacity .2s;mix-blend-mode:difference}
+#cursor-ring{position:fixed;width:40px;height:40px;border:1px solid rgba(201,161,74,.45);border-radius:50%;pointer-events:none;z-index:99998;transform:translate(-50%,-50%);transition:width .3s,height .3s,border-color .3s}
+.cursor-hover #cursor{width:18px;height:18px}
+.cursor-hover #cursor-ring{width:60px;height:60px;border-color:rgba(201,161,74,.7)}
+.cursor-text #cursor{opacity:0}
+.cursor-text #cursor-ring{width:80px;height:80px;border-color:rgba(201,161,74,.3)}
+
+/* ── LOADER ── */
+#loader{position:fixed;inset:0;z-index:100000;background:#0a0704;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:20px;transition:opacity 1s}
+#loader.hide{opacity:0;pointer-events:none}
+.loader-mark{font-family:var(--font-display);font-size:clamp(2.5rem,6vw,4.5rem);font-weight:300;letter-spacing:.15em;color:var(--cream)}
+.loader-mark em{color:var(--gold);font-style:italic}
+.loader-line{width:160px;height:1px;background:rgba(201,161,74,.15);overflow:hidden}
+.loader-fill{height:100%;background:var(--gold);width:0;animation:loadFill 2s ease forwards}
+@keyframes loadFill{to{width:100%}}
+.loader-caption{font-family:var(--font-ui);font-size:.55rem;letter-spacing:.35em;text-transform:uppercase;color:var(--cream-faint)}
+
+/* ── 3D BACKGROUND CANVAS ── */
+#webgl-bg{position:fixed;top:0;left:0;width:100%;height:100%;pointer-events:none;z-index:0;opacity:.85}
+
+/* ── NAV ── */
+#nav{position:fixed;top:0;left:0;right:0;z-index:1000;padding:0 5%;display:flex;align-items:center;justify-content:space-between;height:84px;transition:all .5s}
+#nav.scrolled{background:rgba(10,7,4,.96);backdrop-filter:blur(24px);height:64px;border-bottom:1px solid rgba(201,161,74,.12)}
+.nav-logo{font-family:var(--font-display);font-size:1.7rem;font-weight:600;letter-spacing:.1em;color:var(--cream);text-decoration:none;cursor:none;line-height:1}
+.nav-logo em{color:var(--gold);font-style:italic;font-weight:300}
+.nav-links{display:flex;align-items:center;list-style:none;position:relative;gap:0}
+.nav-links li a{font-size:.6rem;letter-spacing:.22em;text-transform:uppercase;color:var(--cream-dim);text-decoration:none;padding:10px 18px;display:block;transition:color .3s;cursor:none}
+.nav-links li a:hover,.nav-links li a.active{color:var(--gold)}
+#nav-pill{position:absolute;bottom:0;height:1px;background:linear-gradient(90deg,transparent,var(--gold),transparent);transition:left .4s cubic-bezier(.4,0,.2,1),width .4s cubic-bezier(.4,0,.2,1)}
+.nav-reserve{font-size:.58rem;letter-spacing:.2em;text-transform:uppercase;color:var(--dark);background:var(--gold);padding:10px 22px;text-decoration:none;transition:background .3s,transform .2s;cursor:none;white-space:nowrap}
+.nav-reserve:hover{background:var(--gold-light);transform:translateY(-1px)}
+.nav-burger{display:none;flex-direction:column;gap:5px;cursor:none;padding:6px}
+.nav-burger span{display:block;width:22px;height:1px;background:var(--cream);transition:all .3s}
+.nav-burger.open span:nth-child(1){transform:rotate(45deg) translate(4px,4px)}
+.nav-burger.open span:nth-child(2){opacity:0;transform:translateX(-8px)}
+.nav-burger.open span:nth-child(3){transform:rotate(-45deg) translate(4px,-4px)}
+#mobile-nav{position:fixed;inset:0;background:rgba(7,5,3,.98);backdrop-filter:blur(30px);z-index:999;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:28px;opacity:0;pointer-events:none;transition:opacity .45s}
+#mobile-nav.open{opacity:1;pointer-events:all}
+#mobile-nav a{font-family:var(--font-display);font-size:clamp(2rem,6vw,3rem);font-weight:300;letter-spacing:.06em;color:var(--cream);text-decoration:none;transition:color .2s;cursor:none}
+#mobile-nav a:hover{color:var(--gold)}
+#mobile-nav .mobile-divider{width:60px;height:1px;background:rgba(201,161,74,.2)}
+
+/* ── TRANSITION OVERLAY ── */
+#transition-overlay{position:fixed;inset:0;z-index:500;background:#0a0704;display:flex;align-items:center;justify-content:center;opacity:0;pointer-events:none;transition:opacity .4s}
+#transition-overlay.active{opacity:1;pointer-events:all}
+.t-text{font-family:var(--font-display);font-size:clamp(1.2rem,4vw,2.5rem);font-weight:300;color:var(--gold);letter-spacing:.25em;opacity:0;text-align:center}
+.t-text.show{animation:tTextAnim 2.2s ease both}
+@keyframes tTextAnim{0%{opacity:0;letter-spacing:.45em}25%{opacity:1}80%{opacity:1;letter-spacing:.25em}100%{opacity:0}}
+
+/* ── SECTION SYSTEM ── */
+.section{min-height:100vh;display:none;flex-direction:column;position:relative;overflow-x:hidden}
+.section.active{display:flex}
+#home{min-height:100vh;display:none;flex-direction:column;position:relative}
+#home.active{display:flex}
+
+/* ── COMMON ── */
+@keyframes fadeUp{from{opacity:0;transform:translateY(28px)}to{opacity:1;transform:translateY(0)}}
+@keyframes fadeIn{from{opacity:0}to{opacity:1}}
+.eyebrow{font-family:var(--font-ui);font-size:.58rem;letter-spacing:.38em;text-transform:uppercase;color:var(--gold);margin-bottom:16px;display:block}
+.section-title{font-family:var(--font-display);font-size:clamp(2.6rem,6vw,5.5rem);font-weight:300;line-height:.95;color:var(--cream)}
+.section-title em{font-style:italic;color:var(--gold)}
+.prose{font-family:var(--font-display);font-size:1.05rem;font-weight:300;line-height:1.9;color:var(--cream-dim)}
+.gold-line{width:48px;height:1px;background:var(--gold);display:block;margin:28px 0}
+.btn-gold{font-family:var(--font-ui);font-size:.62rem;letter-spacing:.22em;text-transform:uppercase;background:var(--gold);color:#0a0704;padding:15px 40px;border:none;cursor:none;text-decoration:none;display:inline-block;transition:background .3s,transform .2s;position:relative;overflow:hidden}
+.btn-gold::after{content:'';position:absolute;inset:0;background:rgba(255,255,255,.2);transform:translateX(-100%);transition:transform .4s}
+.btn-gold:hover{background:var(--gold-light);transform:translateY(-2px)}
+.btn-gold:hover::after{transform:translateX(0)}
+.btn-ghost{font-family:var(--font-ui);font-size:.62rem;letter-spacing:.22em;text-transform:uppercase;background:none;border:1px solid rgba(201,161,74,.4);color:var(--cream);padding:15px 40px;cursor:none;text-decoration:none;display:inline-block;transition:all .3s}
+.btn-ghost:hover{border-color:var(--gold);color:var(--gold);transform:translateY(-2px)}
+
+/* ─────────────────────────────────
+   HOME — HERO
+───────────────────────────────── */
+#hero{position:relative;height:100vh;overflow:hidden;flex-shrink:0}
+.hero-bg{position:absolute;inset:0;background:url('https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=1800&q=85') center/cover no-repeat;transform-origin:center;will-change:transform}
+.hero-overlay{position:absolute;inset:0;background:linear-gradient(to bottom,rgba(10,7,4,.15) 0%,rgba(10,7,4,.4) 50%,rgba(10,7,4,.92) 88%,#0a0704 100%)}
+.hero-vignette{position:absolute;inset:0;background:radial-gradient(ellipse at center,transparent 40%,rgba(10,7,4,.6) 100%)}
+.hero-glow{position:absolute;bottom:8%;left:50%;transform:translateX(-50%);width:80vw;height:30vh;background:radial-gradient(ellipse,rgba(201,161,74,.12) 0%,transparent 70%);pointer-events:none}
+.particles-wrap{position:absolute;inset:0;overflow:hidden;pointer-events:none}
+.p-dot{position:absolute;border-radius:50%;background:var(--gold);opacity:0;animation:pFloat linear infinite}
+@keyframes pFloat{0%{opacity:0;transform:translateY(0) scale(0)}8%{opacity:.5}92%{opacity:.08}100%{opacity:0;transform:translateY(-110vh) scale(.6)}}
+.hero-content{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:0 20px;padding-top:80px}
+.hero-tag{font-family:var(--font-ui);font-size:.55rem;letter-spacing:.45em;text-transform:uppercase;color:var(--gold);margin-bottom:28px;animation:fadeUp .8s .4s both}
+.hero-title{font-family:var(--font-display);font-size:clamp(4.5rem,11vw,9rem);font-weight:300;line-height:.85;letter-spacing:.03em;color:var(--cream);animation:fadeUp .9s .6s both}
+.hero-title .line2{font-style:italic;color:var(--gold);font-weight:400}
+.hero-title .line3{font-weight:200;letter-spacing:.08em;font-size:.55em;display:block;margin-top:8px}
+.hero-divider{display:flex;align-items:center;gap:16px;margin:28px 0;animation:fadeIn 1s 1.1s both}
+.hero-divider span{width:40px;height:1px;background:rgba(201,161,74,.4)}
+.hero-divider i{font-family:var(--font-display);font-size:.85rem;font-style:italic;color:var(--cream-dim);letter-spacing:.08em}
+.hero-sub{font-family:var(--font-display);font-size:clamp(.9rem,1.6vw,1.2rem);font-weight:300;font-style:italic;color:var(--cream-dim);animation:fadeUp .8s 1.3s both;margin-bottom:40px}
+.enter-btn{font-family:var(--font-ui);font-size:.62rem;letter-spacing:.3em;text-transform:uppercase;color:#0a0704;background:var(--gold);border:none;padding:18px 52px;cursor:none;position:relative;overflow:hidden;animation:fadeUp .8s 1.5s both;transition:transform .3s,box-shadow .3s}
+.enter-btn::before{content:'';position:absolute;inset:0;background:rgba(255,255,255,.2);transform:translateX(-110%);transition:transform .5s}
+.enter-btn:hover{transform:scale(1.04);box-shadow:0 0 40px rgba(201,161,74,.3)}
+.enter-btn:hover::before{transform:translateX(0)}
+.scroll-cue{position:absolute;bottom:36px;left:50%;transform:translateX(-50%);text-align:center;animation:fadeIn 1s 2.2s both}
+.scroll-cue span{display:block;font-size:.52rem;letter-spacing:.3em;text-transform:uppercase;color:var(--cream-faint);margin-bottom:10px}
+.scroll-bar{width:1px;height:44px;background:linear-gradient(to bottom,var(--gold),transparent);margin:0 auto;animation:scBar 2s ease-in-out infinite}
+@keyframes scBar{0%,100%{transform:scaleY(0);transform-origin:top;opacity:1}50%{transform:scaleY(1);transform-origin:top;opacity:.7}51%{transform:scaleY(1);transform-origin:bottom}100%{transform:scaleY(0);transform-origin:bottom}}
+
+/* ─────────────────────────────────
+   HOME INTERIOR REVEAL (after Enter)
+───────────────────────────────── */
+#phase-interior{display:none}
+#phase-interior.visible{display:block}
+
+/* Interior Atmosphere */
+.int-atmosphere{position:relative;height:100vh;overflow:hidden}
+.int-bg{position:absolute;inset:0;background:url('https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=1800&q=85') center/cover no-repeat;will-change:transform}
+.int-overlay{position:absolute;inset:0;background:linear-gradient(135deg,rgba(10,7,4,.72) 0%,rgba(10,7,4,.2) 100%)}
+.int-beams{position:absolute;inset:0;overflow:hidden;pointer-events:none}
+.beam{position:absolute;top:-10%;width:1px;height:120%;background:linear-gradient(to bottom,transparent 0%,rgba(201,161,74,.25) 20%,rgba(201,161,74,.4) 50%,transparent 100%);animation:beamSwing 8s ease-in-out infinite alternate}
+.beam:nth-child(1){left:18%;transform:rotate(8deg);animation-delay:0s}
+.beam:nth-child(2){left:38%;transform:rotate(14deg);animation-delay:2s;opacity:.6}
+.beam:nth-child(3){left:62%;transform:rotate(-10deg);animation-delay:4s;opacity:.5}
+.beam:nth-child(4){left:80%;transform:rotate(-16deg);animation-delay:1s;opacity:.4}
+@keyframes beamSwing{from{opacity:.2}to{opacity:.7}}
+.int-haze{position:absolute;inset:0;background:radial-gradient(ellipse at 35% 65%,rgba(201,161,74,.07) 0%,transparent 55%);animation:hazeMove 10s ease-in-out infinite alternate}
+@keyframes hazeMove{from{transform:translate(0,0) scale(1)}to{transform:translate(3%,2%) scale(1.04)}}
+.int-glass{position:absolute;inset:0;background:linear-gradient(45deg,rgba(255,255,255,.015) 0%,rgba(255,255,255,.045) 50%,rgba(255,255,255,.01) 100%)}
+.int-content{position:absolute;inset:0;display:flex;align-items:center;padding:0 8%}
+.int-text{max-width:540px}
+.int-text .eyebrow{animation:fadeUp .8s .2s both}
+.int-heading{font-family:var(--font-display);font-size:clamp(2.4rem,5.5vw,4.5rem);font-weight:300;line-height:1.05;color:var(--cream);margin-bottom:24px;animation:fadeUp .9s .4s both}
+.int-heading em{font-style:italic;color:var(--gold)}
+.int-body{font-family:var(--font-display);font-size:1.08rem;font-weight:300;line-height:1.9;color:var(--cream-dim);animation:fadeUp .9s .6s both}
+
+/* ─────────────────────────────────
+   ABOUT / STORY SECTIONS
+───────────────────────────────── */
+.story-section{padding:100px 8%;position:relative;overflow:hidden}
+.story-section::before{content:'';position:absolute;inset:0;background:radial-gradient(ellipse at 70% 50%,rgba(201,161,74,.04) 0%,transparent 60%);pointer-events:none}
+
+/* Story: Two-col with image */
+.story-two-col{display:grid;grid-template-columns:1fr 1fr;gap:80px;align-items:center}
+.story-img-wrap{position:relative;overflow:hidden}
+.story-img-wrap img{width:100%;height:520px;object-fit:cover;filter:brightness(.8) saturate(.85);transition:transform .9s ease,filter .9s ease}
+.story-img-wrap:hover img{transform:scale(1.04);filter:brightness(.9) saturate(1)}
+.story-img-accent{position:absolute;top:-12px;left:-12px;right:12px;bottom:12px;border:1px solid rgba(201,161,74,.2);pointer-events:none;z-index:1}
+.story-img-caption{position:absolute;bottom:20px;left:20px;right:20px;font-family:var(--font-ui);font-size:.52rem;letter-spacing:.2em;text-transform:uppercase;color:rgba(201,161,74,.7);z-index:2}
+.story-text-col h2{font-family:var(--font-display);font-size:clamp(2rem,4.5vw,3.8rem);font-weight:300;line-height:1.05;color:var(--cream);margin-bottom:28px}
+.story-text-col h2 em{font-style:italic;color:var(--gold)}
+.story-text-col p{font-family:var(--font-display);font-size:1rem;font-weight:300;line-height:1.9;color:var(--cream-dim);margin-bottom:20px}
+.story-text-col .stat-row{display:flex;gap:40px;margin:36px 0;border-top:1px solid rgba(201,161,74,.12);border-bottom:1px solid rgba(201,161,74,.12);padding:24px 0}
+.stat-item .stat-num{font-family:var(--font-display);font-size:3rem;font-weight:300;color:var(--gold);line-height:1}
+.stat-item .stat-label{font-family:var(--font-ui);font-size:.55rem;letter-spacing:.25em;text-transform:uppercase;color:var(--cream-dim);margin-top:4px}
+
+/* Story: full-width dark band */
+.story-band{background:var(--surface);padding:80px 8%;position:relative}
+.story-band::after{content:'';position:absolute;top:0;left:0;right:0;height:1px;background:linear-gradient(90deg,transparent,rgba(201,161,74,.3),transparent)}
+.story-band-inner{max-width:860px;margin:0 auto;text-align:center}
+.story-band h3{font-family:var(--font-display);font-size:clamp(1.8rem,4vw,3.2rem);font-weight:300;color:var(--cream);margin-bottom:20px;font-style:italic}
+.story-band p{font-family:var(--font-display);font-size:1.1rem;font-weight:300;line-height:1.9;color:var(--cream-dim)}
+.story-band .gold-dot{width:6px;height:6px;background:var(--gold);border-radius:50%;margin:28px auto}
+
+/* Story: Team / Values grid */
+.values-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:rgba(201,161,74,.1);margin:60px 0}
+.value-card{background:var(--dark);padding:40px 28px;position:relative;overflow:hidden;transition:background .4s}
+.value-card::before{content:'';position:absolute;bottom:0;left:0;right:0;height:2px;background:linear-gradient(90deg,transparent,var(--gold),transparent);transform:scaleX(0);transition:transform .5s}
+.value-card:hover{background:var(--surface)}
+.value-card:hover::before{transform:scaleX(1)}
+.value-num{font-family:var(--font-display);font-size:3.5rem;font-weight:300;color:rgba(201,161,74,.15);line-height:1;margin-bottom:16px}
+.value-title{font-family:var(--font-display);font-size:1.25rem;font-weight:400;color:var(--cream);margin-bottom:12px}
+.value-desc{font-family:var(--font-display);font-size:.88rem;font-weight:300;line-height:1.8;color:var(--cream-dim)}
+
+/* Story: timeline */
+.timeline{position:relative;padding-left:32px;margin:40px 0}
+.timeline::before{content:'';position:absolute;left:0;top:0;bottom:0;width:1px;background:linear-gradient(to bottom,var(--gold-dark),transparent)}
+.tl-item{position:relative;padding:0 0 40px 32px}
+.tl-item::before{content:'';position:absolute;left:-4px;top:6px;width:9px;height:9px;border-radius:50%;background:var(--gold);box-shadow:0 0 12px rgba(201,161,74,.5)}
+.tl-year{font-family:var(--font-ui);font-size:.58rem;letter-spacing:.25em;color:var(--gold);text-transform:uppercase;margin-bottom:6px}
+.tl-title{font-family:var(--font-display);font-size:1.2rem;font-weight:400;color:var(--cream);margin-bottom:8px}
+.tl-desc{font-family:var(--font-display);font-size:.92rem;font-weight:300;line-height:1.75;color:var(--cream-dim)}
+
+/* Story: gallery mosaic */
+.photo-mosaic{display:grid;grid-template-columns:2fr 1fr 1fr;grid-template-rows:auto auto;gap:3px;margin:60px 0}
+.mosaic-item{overflow:hidden;position:relative}
+.mosaic-item img{width:100%;height:100%;object-fit:cover;filter:brightness(.75) saturate(.8);transition:transform .7s ease,filter .7s ease}
+.mosaic-item:hover img{transform:scale(1.06);filter:brightness(.9) saturate(1.1)}
+.mosaic-item:nth-child(1){grid-row:1/3;height:560px}
+.mosaic-item:nth-child(2),.mosaic-item:nth-child(3){height:277px}
+.mosaic-item:nth-child(4),.mosaic-item:nth-child(5){height:277px}
+.mosaic-caption{position:absolute;bottom:0;left:0;right:0;padding:16px;background:linear-gradient(to top,rgba(10,7,4,.8),transparent);font-family:var(--font-ui);font-size:.5rem;letter-spacing:.2em;text-transform:uppercase;color:rgba(201,161,74,.7)}
+
+/* Experience Highlights */
+.highlights-wrap{padding:0 8% 80px}
+.highlights-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:2px;background:rgba(201,161,74,.08)}
+.hlcard{background:var(--dark);overflow:hidden;position:relative;aspect-ratio:3/4}
+.hlcard img{width:100%;height:100%;object-fit:cover;filter:brightness(.65) saturate(.75);transition:transform .9s cubic-bezier(.25,.46,.45,.94),filter .9s}
+.hlcard:hover img{transform:scale(1.1);filter:brightness(.8) saturate(1.05)}
+.hlcard-body{position:absolute;bottom:0;left:0;right:0;padding:48px 28px 32px;background:linear-gradient(to top,rgba(10,7,4,.95) 0%,rgba(10,7,4,.6) 60%,transparent 100%)}
+.hlcard-num{font-family:var(--font-ui);font-size:.52rem;letter-spacing:.3em;color:var(--gold);margin-bottom:10px}
+.hlcard-title{font-family:var(--font-display);font-size:1.65rem;font-weight:400;color:var(--cream);margin-bottom:10px}
+.hlcard-desc{font-size:.75rem;line-height:1.75;color:var(--cream-dim);max-height:0;overflow:hidden;transition:max-height .5s ease}
+.hlcard:hover .hlcard-desc{max-height:120px}
+.hlcard-shine{position:absolute;inset:0;background:radial-gradient(ellipse at 50% 0%,rgba(201,161,74,.08),transparent 60%);opacity:0;transition:opacity .5s}
+.hlcard:hover .hlcard-shine{opacity:1}
+
+/* CTA Strip */
+.cta-strip{padding:100px 8%;background:var(--surface);position:relative;overflow:hidden;text-align:center}
+.cta-strip::before{content:'';position:absolute;inset:0;background:radial-gradient(ellipse at center,rgba(201,161,74,.06) 0%,transparent 70%)}
+.cta-strip h2{font-family:var(--font-display);font-size:clamp(2rem,5vw,4rem);font-weight:300;color:var(--cream);margin:12px 0 36px}
+.cta-strip h2 em{font-style:italic;color:var(--gold)}
+.cta-btns{display:flex;gap:12px;justify-content:center;flex-wrap:wrap}
+
+/* ─────────────────────────────────
+   MENU SECTION
+───────────────────────────────── */
+#menu{background:#0a0704;overflow:visible}
+.menu-hero{position:relative;height:45vh;overflow:hidden;margin-bottom:0}
+.menu-hero img{width:100%;height:100%;object-fit:cover;filter:brightness(.45) saturate(.7)}
+.menu-hero-overlay{position:absolute;inset:0;background:linear-gradient(to bottom,rgba(10,7,4,.3) 0%,rgba(10,7,4,1) 100%)}
+.menu-hero-text{position:absolute;bottom:48px;left:8%}
+
+/* Main category nav */
+.menu-main-nav{display:flex;overflow-x:auto;padding:0 8%;gap:0;border-bottom:1px solid rgba(201,161,74,.1);scrollbar-width:none;position:sticky;top:64px;z-index:100;background:rgba(10,7,4,.97);backdrop-filter:blur(20px)}
+.menu-main-nav::-webkit-scrollbar{display:none}
+.mcat-btn{font-family:var(--font-ui);font-size:.58rem;letter-spacing:.22em;text-transform:uppercase;color:var(--cream-faint);padding:18px 24px;white-space:nowrap;cursor:none;border:none;background:none;border-bottom:2px solid transparent;transition:color .3s,border-color .3s;flex-shrink:0}
+.mcat-btn.active,.mcat-btn:hover{color:var(--gold);border-bottom-color:var(--gold)}
+
+/* Category panels */
+.menu-cat-panel{display:none;padding-bottom:80px}
+.menu-cat-panel.active{display:block}
+
+/* Category banner */
+.cat-banner{position:relative;height:36vh;overflow:hidden;margin-bottom:0}
+.cat-banner img{width:100%;height:100%;object-fit:cover;filter:brightness(.45) saturate(.7);transition:transform .8s ease}
+.cat-banner:hover img{transform:scale(1.03)}
+.cat-banner-overlay{position:absolute;inset:0;background:linear-gradient(to right,rgba(10,7,4,.8) 0%,rgba(10,7,4,.2) 100%)}
+.cat-banner-info{position:absolute;bottom:32px;left:8%}
+.cat-banner-info .eyebrow{margin-bottom:8px}
+.cat-name{font-family:var(--font-display);font-size:clamp(2.2rem,5vw,4rem);font-weight:300;color:var(--cream)}
+
+/* Subcategory tabs */
+.subcat-tabs{display:flex;overflow-x:auto;padding:0 8%;gap:0;border-bottom:1px solid rgba(201,161,74,.08);scrollbar-width:none}
+.subcat-tabs::-webkit-scrollbar{display:none}
+.subcat-btn{font-family:var(--font-ui);font-size:.55rem;letter-spacing:.18em;text-transform:uppercase;color:var(--cream-faint);padding:14px 20px;white-space:nowrap;cursor:none;border:none;background:none;border-bottom:1px solid transparent;transition:all .3s;flex-shrink:0}
+.subcat-btn.active,.subcat-btn:hover{color:var(--cream-dim);border-bottom-color:rgba(201,161,74,.4)}
+
+/* Subcategory panels */
+.subcat-panel{display:none;padding:48px 8% 0}
+.subcat-panel.active{display:block}
+.subcat-panel h3{font-family:var(--font-display);font-size:clamp(1.5rem,3vw,2.4rem);font-weight:300;color:var(--cream);margin-bottom:8px}
+.subcat-panel .subcat-desc{font-family:var(--font-display);font-size:.92rem;font-weight:300;font-style:italic;color:var(--cream-faint);margin-bottom:36px;border-left:2px solid rgba(201,161,74,.3);padding-left:16px}
+
+/* Menu grid */
+.items-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(290px,1fr));gap:2px;background:rgba(201,161,74,.06)}
+.item-card{background:var(--dark);display:flex;flex-direction:column;transition:background .3s;position:relative;overflow:hidden}
+.item-card:hover{background:var(--surface)}
+.item-card::after{content:'';position:absolute;bottom:0;left:0;right:0;height:1px;background:linear-gradient(90deg,transparent,rgba(201,161,74,.3),transparent);transform:scaleX(0);transition:transform .5s}
+.item-card:hover::after{transform:scaleX(1)}
+.item-img{overflow:hidden;position:relative}
+.item-img img{width:100%;aspect-ratio:4/3;object-fit:cover;filter:brightness(.7) saturate(.8);transition:transform .7s ease,filter .7s}
+.item-card:hover .item-img img{transform:scale(1.07);filter:brightness(.85) saturate(1)}
+.item-badge{position:absolute;top:12px;right:12px;font-family:var(--font-ui);font-size:.48rem;letter-spacing:.15em;text-transform:uppercase;background:var(--gold);color:#0a0704;padding:4px 10px;z-index:1}
+.item-body{padding:20px 20px 16px;flex:1;display:flex;flex-direction:column}
+.item-name{font-family:var(--font-display);font-size:1.2rem;font-weight:400;color:var(--cream);margin-bottom:6px}
+.item-desc{font-family:var(--font-display);font-size:.82rem;font-weight:300;line-height:1.75;color:var(--cream-dim);flex:1;margin-bottom:14px}
+.item-tags{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:12px}
+.item-tag{font-family:var(--font-ui);font-size:.46rem;letter-spacing:.12em;text-transform:uppercase;border:1px solid rgba(201,161,74,.2);color:var(--cream-faint);padding:3px 8px}
+.item-footer{display:flex;align-items:center;justify-content:space-between;padding-top:12px;border-top:1px solid rgba(255,255,255,.04)}
+.item-price{font-family:var(--font-display);font-size:1.15rem;color:var(--gold);font-weight:400}
+.item-order{font-family:var(--font-ui);font-size:.52rem;letter-spacing:.15em;text-transform:uppercase;background:none;border:1px solid rgba(201,161,74,.35);color:var(--gold);padding:7px 14px;cursor:none;text-decoration:none;transition:all .3s}
+.item-order:hover{background:var(--gold);color:#0a0704;border-color:var(--gold)}
+
+/* Drinks special layout */
+.drinks-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:2px;background:rgba(201,161,74,.06)}
+.drink-card{background:var(--dark);padding:28px;display:flex;flex-direction:column;transition:background .4s;position:relative}
+.drink-card:hover{background:var(--surface)}
+.drink-card::before{content:'';position:absolute;left:0;top:0;bottom:0;width:2px;background:linear-gradient(to bottom,transparent,rgba(201,161,74,.5),transparent);transform:scaleY(0);transition:transform .5s}
+.drink-card:hover::before{transform:scaleY(1)}
+.drink-icon{font-family:var(--font-display);font-size:2rem;color:rgba(201,161,74,.2);margin-bottom:16px;font-style:italic}
+.drink-name{font-family:var(--font-display);font-size:1.25rem;font-weight:400;color:var(--cream);margin-bottom:8px}
+.drink-desc{font-family:var(--font-display);font-size:.82rem;font-weight:300;line-height:1.75;color:var(--cream-dim);flex:1;margin-bottom:16px}
+.drink-notes{font-family:var(--font-ui);font-size:.5rem;letter-spacing:.12em;text-transform:uppercase;color:var(--cream-faint);margin-bottom:12px}
+.drink-footer{display:flex;align-items:center;justify-content:space-between}
+.drink-price{font-family:var(--font-display);font-size:1.1rem;color:var(--gold)}
+
+/* ─────────────────────────────────
+   EVENTS
+───────────────────────────────── */
+#events{background:#0a0704}
+.event-tabs{display:flex;padding:0 8%;gap:0;border-bottom:1px solid rgba(201,161,74,.1)}
+.ev-tab{font-family:var(--font-ui);font-size:.6rem;letter-spacing:.22em;text-transform:uppercase;color:var(--cream-faint);padding:16px 24px;cursor:none;border:none;background:none;border-bottom:2px solid transparent;transition:all .3s}
+.ev-tab.active,.ev-tab:hover{color:var(--gold);border-bottom-color:var(--gold)}
+.ev-panel{display:none;padding:60px 8%}
+.ev-panel.active{display:block}
+.ev-card{margin-bottom:80px}
+.ev-banner{height:55vh;position:relative;overflow:hidden;margin-bottom:36px}
+.ev-banner img{width:100%;height:100%;object-fit:cover;filter:brightness(.55) saturate(.8);transition:transform .9s ease}
+.ev-card:hover .ev-banner img{transform:scale(1.03)}
+.ev-banner-ov{position:absolute;inset:0;background:linear-gradient(to top,rgba(10,7,4,.9) 0%,transparent 55%)}
+.ev-banner-info{position:absolute;bottom:36px;left:40px;right:40px}
+.ev-date{font-family:var(--font-ui);font-size:.58rem;letter-spacing:.3em;text-transform:uppercase;color:var(--gold);margin-bottom:10px}
+.ev-title{font-family:var(--font-display);font-size:clamp(1.8rem,4.5vw,3.4rem);font-weight:300;color:var(--cream)}
+.ev-body{max-width:760px}
+.ev-body p{font-family:var(--font-display);font-size:1.02rem;font-weight:300;line-height:1.88;color:var(--cream-dim);margin-bottom:20px}
+.ev-meta{display:flex;gap:32px;padding:20px 0;border-top:1px solid rgba(201,161,74,.1);border-bottom:1px solid rgba(201,161,74,.1);margin:24px 0;flex-wrap:wrap}
+.ev-meta-item .label{font-family:var(--font-ui);font-size:.52rem;letter-spacing:.2em;text-transform:uppercase;color:var(--gold);margin-bottom:4px}
+.ev-meta-item .value{font-family:var(--font-display);font-size:.98rem;color:var(--cream)}
+.ev-actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:24px}
+.share-btn{font-family:var(--font-ui);font-size:.55rem;letter-spacing:.15em;text-transform:uppercase;border:1px solid rgba(255,255,255,.12);color:var(--cream-dim);padding:9px 18px;cursor:none;background:none;transition:all .3s;text-decoration:none}
+.share-btn:hover{border-color:var(--gold);color:var(--gold)}
+.gallery-btn{font-family:var(--font-ui);font-size:.55rem;letter-spacing:.15em;text-transform:uppercase;background:var(--surface2);border:1px solid rgba(201,161,74,.25);color:var(--cream);padding:9px 20px;cursor:none;transition:all .3s}
+.gallery-btn:hover{background:var(--gold);color:#0a0704;border-color:var(--gold)}
+
+/* Gallery modal */
+#gal-modal{position:fixed;inset:0;z-index:2000;background:rgba(7,5,3,.97);display:none;align-items:center;justify-content:center;padding:48px}
+#gal-modal.open{display:flex}
+.gal-inner{max-width:1000px;width:100%;position:relative}
+.gal-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:6px}
+.gal-grid img{width:100%;aspect-ratio:1;object-fit:cover;filter:brightness(.8);transition:filter .3s,transform .3s}
+.gal-grid img:hover{filter:brightness(1);transform:scale(1.02)}
+.gal-close{position:absolute;top:-44px;right:0;font-family:var(--font-ui);font-size:.6rem;letter-spacing:.2em;text-transform:uppercase;color:var(--cream-dim);cursor:none;background:none;border:none;transition:color .2s}
+.gal-close:hover{color:var(--gold)}
+
+/* ─────────────────────────────────
+   COMMUNITY
+───────────────────────────────── */
+#community{background:#0a0704}
+#community-canvas{position:fixed;inset:0;z-index:0;pointer-events:none;opacity:0;transition:opacity .6s}
+#community.active #community-canvas{opacity:1}
+.comm-inner{position:relative;z-index:1;padding:140px 8% 80px}
+#name-prompt{display:flex;flex-direction:column;align-items:center;justify-content:center;min-height:55vh;gap:20px;text-align:center}
+.np-title{font-family:var(--font-display);font-size:clamp(2rem,5vw,3.5rem);font-weight:300;color:var(--cream)}
+.np-title em{font-style:italic;color:var(--gold)}
+.np-sub{font-family:var(--font-display);font-size:1rem;font-weight:300;color:var(--cream-dim);font-style:italic}
+.name-input{font-family:var(--font-ui);font-size:.78rem;letter-spacing:.1em;background:rgba(255,255,255,.04);border:1px solid rgba(201,161,74,.25);color:var(--cream);padding:15px 22px;width:340px;max-width:100%;outline:none;transition:border-color .3s}
+.name-input:focus{border-color:var(--gold)}
+.name-input::placeholder{color:var(--cream-faint)}
+#community-feed{display:none}
+#community-feed.show{display:block}
+.comm-topbar{display:flex;align-items:center;justify-content:space-between;margin-bottom:36px;flex-wrap:wrap;gap:12px}
+.comm-greeting{font-family:var(--font-display);font-size:2rem;font-weight:300;color:var(--cream)}
+.comm-greeting span{color:var(--gold);font-style:italic}
+.sort-row{display:flex;gap:8px;flex-wrap:wrap}
+.sort-btn{font-family:var(--font-ui);font-size:.55rem;letter-spacing:.15em;text-transform:uppercase;border:1px solid rgba(201,161,74,.25);color:var(--cream-faint);padding:7px 14px;cursor:none;background:none;transition:all .3s}
+.sort-btn.active,.sort-btn:hover{border-color:var(--gold);color:var(--gold)}
+.composer{background:rgba(255,255,255,.02);backdrop-filter:blur(20px);border:1px solid rgba(201,161,74,.12);padding:24px;margin-bottom:28px}
+.composer textarea{width:100%;background:none;border:none;outline:none;font-family:var(--font-display);font-size:1rem;font-weight:300;color:var(--cream);resize:none;min-height:72px;line-height:1.65}
+.composer textarea::placeholder{color:var(--cream-faint)}
+.composer-bar{display:flex;align-items:center;justify-content:space-between;margin-top:16px;padding-top:14px;border-top:1px solid rgba(255,255,255,.05)}
+.img-lbl{font-family:var(--font-ui);font-size:.55rem;letter-spacing:.15em;text-transform:uppercase;color:var(--cream-faint);cursor:none;border:1px solid rgba(255,255,255,.12);padding:7px 14px;transition:all .3s}
+.img-lbl:hover{border-color:var(--gold);color:var(--gold)}
+#img-upload{display:none}
+.post-card{background:rgba(255,255,255,.025);backdrop-filter:blur(12px);border:1px solid rgba(201,161,74,.08);padding:24px;margin-bottom:12px;transition:border-color .3s;animation:fadeUp .4s ease both}
+.post-card:hover{border-color:rgba(201,161,74,.2)}
+.post-header{display:flex;justify-content:space-between;margin-bottom:14px}
+.post-author{font-family:var(--font-ui);font-size:.6rem;letter-spacing:.12em;text-transform:uppercase;color:var(--gold)}
+.post-time{font-family:var(--font-ui);font-size:.56rem;color:var(--cream-faint)}
+.post-text{font-family:var(--font-display);font-size:.98rem;font-weight:300;line-height:1.7;color:var(--cream);margin-bottom:14px}
+.post-img{width:100%;max-height:280px;object-fit:cover;margin-bottom:14px}
+.post-actions{display:flex;gap:14px;align-items:center}
+.like-btn,.cmt-btn,.del-btn{font-family:var(--font-ui);font-size:.55rem;letter-spacing:.1em;text-transform:uppercase;background:none;border:none;color:var(--cream-faint);cursor:none;transition:color .2s;display:flex;align-items:center;gap:5px}
+.like-btn:hover,.cmt-btn:hover{color:var(--cream)}
+.like-btn.liked{color:var(--gold)}
+.del-btn:hover{color:#e05555}
+.cmts-area{display:none;margin-top:16px;padding-top:16px;border-top:1px solid rgba(255,255,255,.05)}
+.cmts-area.open{display:block}
+.cmt-item{padding:10px 0;border-bottom:1px solid rgba(255,255,255,.03)}
+.cmt-author{font-family:var(--font-ui);font-size:.55rem;letter-spacing:.1em;text-transform:uppercase;color:var(--gold);margin-bottom:3px}
+.cmt-text{font-family:var(--font-display);font-size:.88rem;font-weight:300;color:var(--cream-dim);line-height:1.6}
+.reply-zone{padding-left:16px;border-left:1px solid rgba(201,161,74,.15);margin-top:6px}
+.reply-item{padding:5px 0;font-family:var(--font-display);font-size:.82rem;font-weight:300;color:var(--cream-faint);line-height:1.5}
+.cmt-input{width:100%;margin-top:10px;padding:9px 14px;background:rgba(255,255,255,.03);border:1px solid rgba(201,161,74,.15);color:var(--cream);font-family:var(--font-display);font-size:.85rem;outline:none;transition:border-color .3s}
+.cmt-input:focus{border-color:var(--gold)}
+.cmt-input::placeholder{color:var(--cream-faint)}
+.comm-note{font-family:var(--font-ui);font-size:.55rem;letter-spacing:.05em;color:var(--cream-faint);text-align:center;padding:36px 0 0;border-top:1px solid rgba(255,255,255,.05)}
+
+/* ─────────────────────────────────
+   CONTACT
+───────────────────────────────── */
+#contact{background:var(--dark)}
+.contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:60px;padding:0 8% 80px;align-items:start}
+.contact-block{margin-bottom:32px}
+.contact-block h3{font-family:var(--font-display);font-size:1.3rem;font-weight:400;color:var(--cream);margin-bottom:8px}
+.contact-block p,.contact-block a{font-family:var(--font-display);font-size:.98rem;font-weight:300;color:var(--cream-dim);line-height:1.75;text-decoration:none;display:block;transition:color .2s}
+.contact-block a:hover{color:var(--gold)}
+.contact-rule{height:1px;background:linear-gradient(90deg,rgba(201,161,74,.2),transparent);margin:28px 0}
+.hours-tbl{width:100%;border-collapse:collapse}
+.hours-tbl td{font-family:var(--font-display);font-size:.9rem;padding:8px 0;color:var(--cream-dim);border-bottom:1px solid rgba(255,255,255,.03)}
+.hours-tbl td:first-child{color:var(--cream)}
+.hours-tbl td:last-child{text-align:right}
+.social-row{display:flex;gap:10px;flex-wrap:wrap;margin-top:14px}
+.social-lnk{font-family:var(--font-ui);font-size:.56rem;letter-spacing:.2em;text-transform:uppercase;border:1px solid rgba(201,161,74,.25);color:var(--cream-dim);padding:9px 18px;text-decoration:none;cursor:none;transition:all .3s}
+.social-lnk:hover{border-color:var(--gold);color:var(--gold)}
+.faq-item{border-bottom:1px solid rgba(201,161,74,.1)}
+.faq-q{width:100%;text-align:left;background:none;border:none;padding:18px 0;cursor:none;display:flex;justify-content:space-between;align-items:center;font-family:var(--font-display);font-size:.98rem;font-weight:400;color:var(--cream);transition:color .2s}
+.faq-q:hover{color:var(--gold)}
+.faq-ico{width:18px;height:18px;position:relative;flex-shrink:0}
+.faq-ico::before,.faq-ico::after{content:'';position:absolute;background:var(--gold);transition:transform .3s}
+.faq-ico::before{top:50%;left:0;right:0;height:1px;transform:translateY(-50%)}
+.faq-ico::after{left:50%;top:0;bottom:0;width:1px;transform:translateX(-50%)}
+.faq-item.open .faq-ico::after{transform:translateX(-50%) rotate(90deg)}
+.faq-a{font-family:var(--font-display);font-size:.92rem;font-weight:300;line-height:1.8;color:var(--cream-dim);max-height:0;overflow:hidden;transition:max-height .4s ease,padding .4s}
+.faq-item.open .faq-a{max-height:300px;padding-bottom:18px}
+.map-wrap{height:320px;overflow:hidden;margin-bottom:24px}
+.map-wrap iframe{width:100%;height:100%;border:none;filter:grayscale(1) brightness(.45) sepia(.2)}
+.wa-float{position:fixed;bottom:28px;right:28px;z-index:900;width:52px;height:52px;border-radius:50%;background:#25D366;display:flex;align-items:center;justify-content:center;text-decoration:none;box-shadow:0 0 0 0 rgba(37,211,102,.4);animation:waRipple 2s ease-in-out infinite;cursor:none}
+.wa-float:hover{transform:scale(1.1)}
+.wa-float svg{width:26px;height:26px;fill:#fff}
+@keyframes waRipple{0%,100%{box-shadow:0 0 0 0 rgba(37,211,102,.4)}50%{box-shadow:0 0 0 14px rgba(37,211,102,0)}}
+
+/* ─────────────────────────────────
+   RESPONSIVE
+───────────────────────────────── */
+@media(max-width:1100px){
+  .values-grid{grid-template-columns:repeat(2,1fr)}
+  .photo-mosaic{grid-template-columns:1fr 1fr;grid-template-rows:auto}
+  .mosaic-item:nth-child(1){grid-row:auto;height:280px}
+  .mosaic-item:nth-child(2),.mosaic-item:nth-child(3),.mosaic-item:nth-child(4),.mosaic-item:nth-child(5){height:220px}
+}
+@media(max-width:900px){
+  #nav{padding:0 20px}
+  .nav-links,.nav-reserve{display:none}
+  .nav-burger{display:flex}
+  .story-two-col{grid-template-columns:1fr;gap:40px}
+  .contact-grid{grid-template-columns:1fr;gap:36px}
+  .highlights-grid{grid-template-columns:1fr}
+  .hlcard{aspect-ratio:16/9}
+}
+@media(max-width:600px){
+  .items-grid{grid-template-columns:1fr}
+  .drinks-grid{grid-template-columns:1fr}
+  .gal-grid{grid-template-columns:repeat(2,1fr)}
+  .ev-banner{height:36vh}
+  .values-grid{grid-template-columns:1fr}
+}
+</style>
+</head>
+<body>
+
+<!-- CURSOR -->
+<div id="cursor" aria-hidden="true"></div>
+<div id="cursor-ring" aria-hidden="true"></div>
+
+<!-- LOADER -->
+<div id="loader" aria-label="Loading Metro Restaurant and Bar" role="status">
+  <div class="loader-mark">M<em>etro</em></div>
+  <div class="loader-line"><div class="loader-fill"></div></div>
+  <div class="loader-caption">Itahari &nbsp;&bull;&nbsp; Nepal &nbsp;&bull;&nbsp; Est. 2014</div>
+</div>
+
+<!-- 3D WEBGL BACKGROUND -->
+<canvas id="webgl-bg" aria-hidden="true"></canvas>
+
+<!-- TRANSITION OVERLAY -->
+<div id="transition-overlay" aria-hidden="true">
+  <div class="t-text" id="t-text">Welcome to Metro</div>
+</div>
+
+<!-- GALLERY MODAL -->
+<div id="gal-modal" role="dialog" aria-modal="true" aria-label="Photo Gallery">
+  <div class="gal-inner">
+    <button class="gal-close" id="gal-close">Close Gallery</button>
+    <div class="gal-grid" id="gal-grid"></div>
+  </div>
+</div>
+
+<!-- WHATSAPP FLOAT -->
+<a href="https://wa.me/9779802000123?text=Hello%2C%20I%20would%20like%20to%20enquire%20about%20Metro%20Restaurant%20and%20Bar%2C%20Itahari."
+   class="wa-float" aria-label="Contact via WhatsApp" target="_blank" rel="noopener">
+  <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+</a>
+
+<!-- ══════════════════════════════
+     NAVIGATION
+══════════════════════════════ -->
+<nav id="nav" role="navigation" aria-label="Main navigation">
+  <a href="#" class="nav-logo" onclick="navigate('home');return false;">M<em>etro</em></a>
+  <ul class="nav-links">
+    <li><a href="#" data-section="home" class="active" onclick="navigate('home');return false;">Home</a></li>
+    <li><a href="#" data-section="menu" onclick="navigate('menu');return false;">Menu</a></li>
+    <li><a href="#" data-section="events" onclick="navigate('events');return false;">Events</a></li>
+    <li><a href="#" data-section="community" onclick="navigate('community');return false;">Community</a></li>
+    <li><a href="#" data-section="contact" onclick="navigate('contact');return false;">Contact</a></li>
+    <div id="nav-pill"></div>
+  </ul>
+  <a href="https://wa.me/9779802000123?text=Reservation%20request%20at%20Metro%20Restaurant%20and%20Bar" class="nav-reserve" target="_blank" rel="noopener" aria-label="Reserve a table">Reserve Table</a>
+  <button class="nav-burger" id="nav-burger" aria-label="Toggle menu" aria-expanded="false">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+
+<!-- MOBILE NAV -->
+<div id="mobile-nav" role="dialog" aria-modal="true" aria-label="Mobile navigation">
+  <a href="#" onclick="navigate('home');closeMobileNav();return false;">Home</a>
+  <div class="mobile-divider"></div>
+  <a href="#" onclick="navigate('menu');closeMobileNav();return false;">Menu</a>
+  <div class="mobile-divider"></div>
+  <a href="#" onclick="navigate('events');closeMobileNav();return false;">Events</a>
+  <div class="mobile-divider"></div>
+  <a href="#" onclick="navigate('community');closeMobileNav();return false;">Community</a>
+  <div class="mobile-divider"></div>
+  <a href="#" onclick="navigate('contact');closeMobileNav();return false;">Contact</a>
+</div>
+
+<!-- ══════════════════════════════
+     HOME SECTION
+══════════════════════════════ -->
+<section id="home" class="section active" aria-label="Home">
+
+  <!-- HERO -->
+  <div id="hero">
+    <div class="hero-bg" id="hero-parallax"></div>
+    <div class="hero-overlay"></div>
+    <div class="hero-vignette"></div>
+    <div class="hero-glow"></div>
+    <div class="particles-wrap" id="ptc-wrap" aria-hidden="true"></div>
+    <div class="hero-content">
+      <span class="hero-tag">Mahendra Highway Chowk &nbsp;·&nbsp; Itahari, Nepal</span>
+      <h1 class="hero-title">
+        METRO<br/>
+        <span class="line2">Restaurant</span><br/>
+        <span class="line3">&amp; Bar</span>
+      </h1>
+      <div class="hero-divider">
+        <span></span>
+        <i>Where Eastern Nepal Dines &amp; Celebrates</i>
+        <span></span>
+      </div>
+      <p class="hero-sub">Premium Dining · Craft Cocktails · Live Nightlife · Est. 2014</p>
+      <button class="enter-btn" id="enter-btn" aria-label="Enter the Metro experience">Enter Experience</button>
+    </div>
+    <div class="scroll-cue" aria-hidden="true">
+      <span>Scroll</span>
+      <div class="scroll-bar"></div>
+    </div>
+  </div>
+
+  <!-- INTERIOR REVEAL (after clicking Enter) -->
+  <div id="phase-interior">
+
+    <!-- Interior Atmosphere -->
+    <div class="int-atmosphere">
+      <div class="int-bg" id="int-parallax"></div>
+      <div class="int-overlay"></div>
+      <div class="int-beams">
+        <div class="beam"></div><div class="beam"></div><div class="beam"></div><div class="beam"></div>
+      </div>
+      <div class="int-haze"></div>
+      <div class="int-glass"></div>
+      <div class="int-content">
+        <div class="int-text">
+          <span class="eyebrow">Our Philosophy</span>
+          <h2 class="int-heading">A Sanctuary<br/>for the <em>Senses</em></h2>
+          <p class="int-body">At Metro, we believe that every evening holds the potential to become a memory. Nestled at the pulse of Itahari's commercial heart, we curate experiences that honour the richness of Nepal's culinary traditions while pushing the boundaries of what a night out in eastern Nepal can feel like.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- ── ABOUT: ORIGIN STORY ── -->
+    <div class="story-section" style="background:var(--dark)">
+      <div class="story-two-col">
+        <div class="story-img-wrap">
+          <div class="story-img-accent"></div>
+          <img src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=900&q=85"
+               alt="Metro Restaurant exterior on Mahendra Highway, Itahari Nepal"
+               loading="lazy" />
+          <div class="story-img-caption">Metro Restaurant &amp; Bar — Itahari, Koshi Province</div>
+        </div>
+        <div class="story-text-col">
+          <span class="eyebrow">Our Origin</span>
+          <h2>Born from <em>Itahari's</em><br/>Rising Ambition</h2>
+          <p>In 2014, when Itahari was still finding its identity as eastern Nepal's fastest-growing commercial hub, Metro opened its doors with a conviction that this city deserved more than ordinary. We saw a community hungry for experiences that matched their aspirations — people who worked hard, travelled widely, and came home wanting a place that felt genuinely premium.</p>
+          <p>We built Metro not as a restaurant, but as a destination. A space where the aromas of slow-cooked Nepali curries and tandoor smoke mingled with the cool hum of carefully chosen music, where the warm glow of amber lighting turned strangers into friends and ordinary Tuesday evenings into something worth remembering.</p>
+          <div class="stat-row">
+            <div class="stat-item">
+              <div class="stat-num">10+</div>
+              <div class="stat-label">Years of Service</div>
+            </div>
+            <div class="stat-item">
+              <div class="stat-num">8K+</div>
+              <div class="stat-label">Happy Guests / Month</div>
+            </div>
+            <div class="stat-item">
+              <div class="stat-num">120+</div>
+              <div class="stat-label">Menu Items</div>
+            </div>
+          </div>
+          <a href="#" onclick="navigate('contact');return false;" class="btn-gold">Find Us in Itahari</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- ── ABOUT: PHILOSOPHY BAND ── -->
+    <div class="story-band">
+      <div class="story-band-inner">
+        <span class="eyebrow" style="text-align:center;display:block">Culinary Philosophy</span>
+        <h3>"Food is memory. Every dish we serve carries the weight of tradition and the lightness of joy."</h3>
+        <div class="gold-dot"></div>
+        <p>Our kitchen is guided by a singular principle — use the finest local produce, honour classical techniques, and plate with intention. Our chefs draw from the diverse food cultures converging in this region: Nepali hill traditions, Madheshi warmth, Tibetan influence, and the vibrant theatre of Indian cuisine. The result is a menu that is deeply familiar yet always surprising.</p>
+      </div>
+    </div>
+
+    <!-- ── ABOUT: TIMELINE ── -->
+    <div class="story-section" style="background:var(--surface)">
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:80px;align-items:start">
+        <div>
+          <span class="eyebrow">Our Journey</span>
+          <h2 style="font-family:var(--font-display);font-size:clamp(2rem,4.5vw,3.5rem);font-weight:300;color:var(--cream);margin-bottom:36px">A Decade of <em>Excellence</em></h2>
+          <div class="timeline">
+            <div class="tl-item">
+              <div class="tl-year">2014</div>
+              <div class="tl-title">Grand Opening</div>
+              <div class="tl-desc">Metro Restaurant and Bar opens at Mahendra Highway Chowk with a 60-seat restaurant and intimate bar. The response from Itahari's community is immediate and overwhelming.</div>
+            </div>
+            <div class="tl-item">
+              <div class="tl-year">2016</div>
+              <div class="tl-title">Saturday Night Live Launch</div>
+              <div class="tl-desc">We introduce weekly DJ nights, transforming Metro into the first dedicated nightlife venue in Sunsari District. The format quickly becomes Itahari's most anticipated weekly event.</div>
+            </div>
+            <div class="tl-item">
+              <div class="tl-year">2018</div>
+              <div class="tl-title">Kitchen Expansion &amp; Tandoor</div>
+              <div class="tl-desc">A full kitchen renovation introduces our clay tandoor and live grill station, expanding the menu to include our now-legendary tandoor platters and wood-fired specialties.</div>
+            </div>
+            <div class="tl-item">
+              <div class="tl-year">2020</div>
+              <div class="tl-title">Bar Programme Relaunch</div>
+              <div class="tl-desc">We hire our first dedicated head bartender and launch the Metro cocktail programme, including our signature Himalayan Gin and seasonal Terai-inspired drinks.</div>
+            </div>
+            <div class="tl-item">
+              <div class="tl-year">2024</div>
+              <div class="tl-title">Decade Celebration</div>
+              <div class="tl-desc">Metro celebrates 10 years with a sold-out gala dinner, a limited anniversary menu, and a renewed commitment to being the heartbeat of Itahari's dining and nightlife scene.</div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <span class="eyebrow">The Space</span>
+          <h2 style="font-family:var(--font-display);font-size:clamp(2rem,4.5vw,3.5rem);font-weight:300;color:var(--cream);margin-bottom:28px">Designed to <em>Enchant</em></h2>
+          <p class="prose" style="margin-bottom:24px">Our interiors were conceived as a conversation between old Nepal and modern aspiration. Dark teak accents, hand-hammered copper bar fixtures, and hand-painted wall motifs inspired by Madhesh folk art create an atmosphere that is unmistakably Nepali — and utterly contemporary.</p>
+          <p class="prose" style="margin-bottom:36px">The restaurant floor seats 80 guests across intimate two-tops and generous banquette booths. The bar is a 14-seat centrepiece of polished brass and dark marble. A private dining room accommodates 20 guests for celebrations, corporate dinners, and family occasions.</p>
+          <img src="https://images.unsplash.com/photo-1466978913421-dad2ebd01d17?w=700&q=80"
+               alt="Candlelit dining room interior at Metro Restaurant Itahari"
+               loading="lazy"
+               style="width:100%;height:280px;object-fit:cover;filter:brightness(.75) saturate(.85)"/>
+        </div>
+      </div>
+    </div>
+
+    <!-- ── ABOUT: VALUES ── -->
+    <div class="story-section" style="padding-bottom:0;background:var(--dark)">
+      <div style="text-align:center;margin-bottom:0">
+        <span class="eyebrow" style="display:block;text-align:center">What Drives Us</span>
+        <h2 class="section-title" style="text-align:center">Our <em>Values</em></h2>
+      </div>
+      <div class="values-grid">
+        <div class="value-card">
+          <div class="value-num">01</div>
+          <div class="value-title">Authentic Craft</div>
+          <div class="value-desc">Every dish emerges from genuine understanding of its origins. We do not approximate tradition — we study it, honour it, and then find ways to make it sing in a contemporary context.</div>
+        </div>
+        <div class="value-card">
+          <div class="value-num">02</div>
+          <div class="value-title">Warm Hospitality</div>
+          <div class="value-desc">In Nepal, the guest is god. Atithi devo bhava is not a policy at Metro — it is our soul. Every person who walks through our doors deserves to feel that this place was built for them.</div>
+        </div>
+        <div class="value-card">
+          <div class="value-num">03</div>
+          <div class="value-title">Community Roots</div>
+          <div class="value-desc">We are Itahari's restaurant. We source locally where possible, employ locally always, and reinvest in the community that has been so generous in its support of this place.</div>
+        </div>
+        <div class="value-card">
+          <div class="value-num">04</div>
+          <div class="value-title">Constant Evolution</div>
+          <div class="value-desc">Complacency is the enemy of excellence. We refresh our menu seasonally, train our team continuously, and keep listening to the city we serve — because Itahari keeps growing, and so must we.</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ── ABOUT: PHOTO MOSAIC ── -->
+    <div class="story-section" style="background:var(--surface2);padding-bottom:0">
+      <span class="eyebrow">Inside Metro</span>
+      <h2 class="section-title" style="margin-bottom:0">Life at <em>Metro</em></h2>
+      <div class="photo-mosaic">
+        <div class="mosaic-item">
+          <img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800&q=80" alt="Fine dining experience at Metro Restaurant Itahari" loading="lazy"/>
+          <div class="mosaic-caption">The Dining Room</div>
+        </div>
+        <div class="mosaic-item">
+          <img src="https://images.unsplash.com/photo-1551024709-8f23befc6f87?w=600&q=80" alt="Craft cocktail preparation at Metro Bar Itahari" loading="lazy"/>
+          <div class="mosaic-caption">The Bar</div>
+        </div>
+        <div class="mosaic-item">
+          <img src="https://images.unsplash.com/photo-1470337458703-46ad1756a187?w=600&q=80" alt="Saturday night live event at Metro Bar Itahari" loading="lazy"/>
+          <div class="mosaic-caption">Saturday Night</div>
+        </div>
+        <div class="mosaic-item">
+          <img src="https://images.unsplash.com/photo-1565557623262-b51c2513a641?w=600&q=80" alt="Indian tandoor cuisine at Metro Restaurant" loading="lazy"/>
+          <div class="mosaic-caption">Tandoor Kitchen</div>
+        </div>
+        <div class="mosaic-item">
+          <img src="https://images.unsplash.com/photo-1585937421612-70a008356fbe?w=600&q=80" alt="Traditional Nepali cuisine at Metro Restaurant Itahari" loading="lazy"/>
+          <div class="mosaic-caption">Nepali Classics</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ── HIGHLIGHTS ── -->
+    <div class="story-section" style="background:var(--dark);padding-bottom:0">
+      <div style="text-align:center;margin-bottom:48px">
+        <span class="eyebrow" style="display:block;text-align:center">Three Dimensions of Excellence</span>
+        <h2 class="section-title" style="text-align:center">The Metro <em>Experience</em></h2>
+      </div>
+      <div class="highlights-wrap" style="padding:0">
+        <div class="highlights-grid">
+          <div class="hlcard">
+            <img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=900&q=80" alt="Signature fine dining at Metro Restaurant Itahari" loading="lazy" srcset="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=450 450w,https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=900 900w"/>
+            <div class="hlcard-body">
+              <div class="hlcard-num">01</div>
+              <div class="hlcard-title">Signature Dining</div>
+              <div class="hlcard-desc">Meticulously plated cuisine honouring Nepal's diverse food traditions. From slow-cooked dal makhani to sizzling tandoor platters, every dish carries the weight of culture and the pleasure of craft.</div>
+            </div>
+            <div class="hlcard-shine"></div>
+          </div>
+          <div class="hlcard">
+            <img src="https://images.unsplash.com/photo-1470337458703-46ad1756a187?w=900&q=80" alt="Nightlife and DJ events at Metro Bar Itahari" loading="lazy"/>
+            <div class="hlcard-body">
+              <div class="hlcard-num">02</div>
+              <div class="hlcard-title">Nightlife &amp; Events</div>
+              <div class="hlcard-desc">As the sun sets, Metro transforms. Live DJ performances, theme nights, and curated events create an atmosphere unlike anything else in eastern Nepal — sophisticated, electric, intimate, alive.</div>
+            </div>
+            <div class="hlcard-shine"></div>
+          </div>
+          <div class="hlcard">
+            <img src="https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?w=900&q=80" alt="Premium craft cocktails at Metro Bar Itahari Nepal" loading="lazy"/>
+            <div class="hlcard-body">
+              <div class="hlcard-num">03</div>
+              <div class="hlcard-title">Premium Bar</div>
+              <div class="hlcard-desc">Our bar programme features expertly crafted cocktails, a curated spirits selection, and signature drinks inspired by Himalayan botanicals. The perfect end to a long day — or the start of an unforgettable night.</div>
+            </div>
+            <div class="hlcard-shine"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- CTA Strip -->
+    <div class="cta-strip">
+      <span class="eyebrow" style="display:block;text-align:center">Make Your Evening Extraordinary</span>
+      <h2>Reserve Your Table <em>Tonight</em></h2>
+      <div class="cta-btns">
+        <a href="https://wa.me/9779802000123?text=Table%20reservation%20at%20Metro" class="btn-gold" target="_blank" rel="noopener">Reserve via WhatsApp</a>
+        <button class="btn-ghost" onclick="navigate('menu')">Explore Menu</button>
+        <button class="btn-ghost" onclick="navigate('events')">Upcoming Events</button>
+      </div>
+    </div>
+
+  </div><!-- /phase-interior -->
+</section>
+
+<!-- ══════════════════════════════
+     MENU SECTION
+══════════════════════════════ -->
+<section id="menu" class="section" aria-label="Menu — Metro Restaurant and Bar">
+
+  <div class="menu-hero">
+    <img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=1600&q=80" alt="Metro Restaurant Itahari menu — Nepali, Indian, Chinese, Continental cuisine" loading="lazy"/>
+    <div class="menu-hero-overlay"></div>
+    <div class="menu-hero-text">
+      <span class="eyebrow">Crafted with Intention</span>
+      <h1 class="section-title">The <em>Menu</em></h1>
+    </div>
+  </div>
+
+  <!-- MAIN CATEGORY NAV -->
+  <nav class="menu-main-nav" aria-label="Menu categories" role="tablist">
+    <button class="mcat-btn active" role="tab" aria-selected="true" onclick="switchMainCat('nepali',this)">Nepali Classics</button>
+    <button class="mcat-btn" role="tab" aria-selected="false" onclick="switchMainCat('indian',this)">Indian &amp; Tandoor</button>
+    <button class="mcat-btn" role="tab" aria-selected="false" onclick="switchMainCat('chinese',this)">Chinese &amp; Hakka</button>
+    <button class="mcat-btn" role="tab" aria-selected="false" onclick="switchMainCat('continental',this)">Continental</button>
+    <button class="mcat-btn" role="tab" aria-selected="false" onclick="switchMainCat('snacks',this)">Snacks &amp; Starters</button>
+    <button class="mcat-btn" role="tab" aria-selected="false" onclick="switchMainCat('cocktails',this)">Cocktails</button>
+    <button class="mcat-btn" role="tab" aria-selected="false" onclick="switchMainCat('mocktails',this)">Mocktails &amp; Juices</button>
+    <button class="mcat-btn" role="tab" aria-selected="false" onclick="switchMainCat('beer',this)">Beer &amp; Spirits</button>
+    <button class="mcat-btn" role="tab" aria-selected="false" onclick="switchMainCat('desserts',this)">Desserts</button>
+  </nav>
+
+  <!-- ═══ NEPALI CLASSICS ═══ -->
+  <div class="menu-cat-panel active" id="cat-nepali">
+    <div class="cat-banner">
+      <img src="https://images.unsplash.com/photo-1585937421612-70a008356fbe?w=1600&q=80" alt="Traditional Nepali cuisine — Metro Restaurant Itahari" loading="lazy"/>
+      <div class="cat-banner-overlay"></div>
+      <div class="cat-banner-info">
+        <span class="eyebrow">Heritage Cuisine</span>
+        <h2 class="cat-name">Nepali Classics</h2>
+      </div>
+    </div>
+    <div class="subcat-tabs" role="tablist" aria-label="Nepali subcategories">
+      <button class="subcat-btn active" onclick="switchSubcat('nepali','thali',this)">Thali &amp; Rice</button>
+      <button class="subcat-btn" onclick="switchSubcat('nepali','momo',this)">Momo &amp; Dumplings</button>
+      <button class="subcat-btn" onclick="switchSubcat('nepali','newari',this)">Newari &amp; Bar Snacks</button>
+      <button class="subcat-btn" onclick="switchSubcat('nepali','curry',this)">Curries &amp; Tarkari</button>
+    </div>
+    <div class="subcat-panel active" id="nepali-thali">
+      <h3>Thali &amp; Rice Meals</h3>
+      <p class="subcat-desc">Nepal's most beloved meal form — a complete spread of dal, tarkari, achar, and more, served with steaming basmati or red rice.</p>
+      <div class="items-grid">
+        <div class="item-card">
+          <div class="item-img"><img src="https://images.unsplash.com/photo-1585937421612-70a008356fbe?w=600&q=80" alt="Dal Bhat Tarkari — traditional Nepali thali meal" loading="lazy"/></div>
+          <div class="item-body">
+            <h4 class="item-name">Dal Bhat Tarkari</h4>
+            <p class="item-desc">The quintessential Nepali meal — fragrant lentil dal, steamed basmati rice, seasonal vegetable curry, house-made tomato achar, and crispy papad. Nourishing, soul-warming, and served with ghee on the side.</p>
+            <div class="item-tags"><span class="item-tag">Vegetarian</span><span class="item-tag">Gluten-Free</span></div>
+            <div class="item-footer"><span class="item-price">NPR 280</span><a href="https://wa.me/9779802000123?text=Order%3A%20Dal%20Bhat%20Tarkari" class="item-order" target="_blank">Order</a></div>
+          </div>
+        </div>
+        <div class="item-card">
+          <div class="item-img"><img src="https://images.unsplash.com/photo-1567364816519-cbc9c4ffe1eb?w=600&q=80" alt="Chicken Thali at Metro Restaurant Itahari" loading="lazy"/></div>
+          <div class="item-body">
+            <h4 class="item-name">Metro Chicken Thali</h4>
+            <p class="item-desc">A generous spread of chicken curry, fragrant white rice, seasonal greens, two varieties of achar, crispy papad, and house-made curd. Comfort in its purest form — the kind of meal that makes you feel at home.</p>
+            <div class="item-tags"><span class="item-tag">Non-Veg</span></div>
+            <div class="item-footer"><span class="item-price">NPR 350</span><a href="https://wa.me/9779802000123?text=Order%3A%20Metro%20Chicken%20Thali" class="item-order" target="_blank">Order</a></div>
+          </div>
+        </div>
+        <div class="item-card">
+          <div class="item-img"><img src="https://images.unsplash.com/photo-1574653853027-5382a3d23a15?w=600&q=80" alt="Kwati Soup — traditional Nepali nine-bean soup" loading="lazy"/><div class="item-badge">Seasonal</div></div>
+          <div class="item-body">
+            <h4 class="item-name">Kwati Soup</h4>
+            <p class="item-desc">A sacred soup from the Newari tradition — nine varieties of sprouted beans slow-simmered with fresh ginger, timur pepper, and aromatic spices. Deeply nourishing and unique to Nepal's festival cuisine.</p>
+            <div class="item-tags"><span class="item-tag">Vegan</span><span class="item-tag">High Protein</span></div>
+            <div class="item-footer"><span class="item-price">NPR 220</span><a href="https://wa.me/9779802000123?text=Order%3A%20Kwati%20Soup" class="item-order" target="_blank">Order</a></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="subcat-panel" id="nepali-momo">
+      <h3>Momo &amp; Dumplings</h3>
+      <p class="subcat-desc">Itahari's most beloved street food, elevated. Hand-folded daily with premium fillings and signature house achar.</p>
+      <div class="items-grid">
+        <div class="item-card">
+          <div class="item-img"><img src="https://images.unsplash.com/photo-1567364816519-cbc9c4ffe1eb?w=600&q=80" alt="Metro Special Steamed Momo with sesame tomato achar" loading="lazy"/></div>
+          <div class="item-body">
+            <h4 class="item-name">Metro Special Momo</h4>
+            <p class="item-desc">Hand-folded steamed dumplings filled with seasoned buff or chicken mince, ginger, garlic, and our secret spice blend. Served with signature sesame-tomato achar and a bowl of clear broth. A Kathmandu staple reimagined with Metro's finesse.</p>
+            <div class="item-tags"><span class="item-tag">Steamed</span><span class="item-tag">Buff / Chicken</span></div>
+            <div class="item-footer"><span class="item-price">NPR 220</span><a href="https://wa.me/9779802000123?text=Order%3A%20Metro%20Special%20Momo" class="item-order" target="_blank">Order</a></div>
+          </div>
+        </div>
+        <div class="item-card">
+          <div class="item-img"><img src="https://images.unsplash.com/photo-1625220194771-7ebdea0b70b9?w=600&q=80" alt="C-Momo — pan-fried crispy momo at Metro" loading="lazy"/></div>
+          <div class="item-body">
+            <h4 class="item-name">C-Momo (Crispy)</h4>
+            <p class="item-desc">Pan-fried after steaming until the skin turns golden and blistered on one side. The filling remains juicy while the exterior delivers that satisfying crunch. Served with hot chilli oil and green achar. Best eaten immediately.</p>
+            <div class="item-tags"><span class="item-tag">Fried</span><span class="item-tag">Popular</span></div>
+            <div class="item-footer"><span class="item-price">NPR 250</span><a href="https://wa.me/9779802000123?text=Order%3A%20C-Momo" class="item-order" target="_blank">Order</a></div>
+          </div>
+        </div>
+        <div class="item-card">
+          <div class="item-img"><img src="https://images.unsplash.com/photo-1547592180-85f173990554?w=600&q=80" alt="Jhol Momo — momo in spiced broth at Metro" loading="lazy"/></div>
+          <div class="item-body">
+            <h4 class="item-name">Jhol Momo</h4>
+            <p class="item-desc">Steamed momo served swimming in a rich, tangy, sesame-peanut broth with dried chilli and fresh cilantro. A beloved Kathmandu innovation that transforms the humble dumpling into a warming, complex bowl of comfort.</p>
+            <div class="item-tags"><span class="item-tag">Spiced Broth</span><span class="item-tag">Must Try</span></div>
+            <div class="item-footer"><span class="item-price">NPR 260</span><a href="https://wa.me/9779802000123?text=Order%3A%20Jhol%20Momo" class="item-order" target="_blank">Order</a></div>
+          </div>
+        </div>
+        <div class="item-card">
+          <div class="item-img"><img src="https://images.unsplash.com/photo-1565557623262-b51c2513a641?w=600&q=80" alt="Veg Momo at Metro Restaurant Itahari" loading="lazy"/></div>
+          <div class="item-body">
+            <h4 class="item-name">Veg Momo</h4>
+            <p class="item-desc">A delicate blend of finely chopped seasonal vegetables, paneer, ginger, garlic, and Nepali spices wrapped in thin handmade dough. Light, fragrant, and every bit as satisfying as its meat-filled counterpart. Available steamed or fried.</p>
+            <div class="item-tags"><span class="item-tag">Vegetarian</span></div>
+            <div class="item-footer"><span class="item-price">NPR 200</span><a href="https://wa.me/9779802000123?text=Order%3A%20Veg%20Momo" class="item-order" target="_blank">Order</a></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="subcat-panel" id="nepali-newari">
+      <h3>Newari &amp; Bar Snacks</h3>
+      <p class="subcat-desc">Classic Nepali bar accompaniments rooted in Newari tradition — the perfect pairing with a cold drink or glass of raksi.</p>
+      <div class="items-grid">
+        <div class="item-card">
+          <div class="item-img"><img src="https://images.unsplash.com/photo-1625220194771-7ebdea0b70b9?w=600&q=80" alt="Buff Choila — Newari spiced buffalo meat" loading="lazy"/></div>
+          <div class="item-body">
+            <h4 class="item-name">Buff Choila</h4>
+            <p class="item-desc">A beloved Newari delicacy — char-grilled buffalo meat marinated in mustard oil, timur pepper, and aromatic spices. Served cold with beaten chiura rice and fermented greens. The defining flavour of Nepali bar culture.</p>
+            <div class="item-tags"><span class="item-tag">Newari</span><span class="item-tag">Bar Classic</span></div>
+            <div class="item-footer"><span class="item-price">NPR 380</span><a href="https://wa.me/9779802000123?text=Order%3A%20Buff%20Choila" class="item-order" target="_blank">Order</a></div>
+          </div>
+        </div>
+        <div class="item-card">
+          <div class="item-img"><img src="https://images.unsplash.com/photo-1589302168068-964664d93dc0?w=600&q=80" alt="Chiura Bhatmas — beaten rice with soybean" loading="lazy"/></div>
+          <div class="item-body">
+            <h4 class="item-name">Chiura &amp; Bhatmas Sadeko</h4>
+            <p class="item-desc">Crispy beaten rice paired with soybean sadeko — tossed in mustard oil, fresh green chilli, onion, and timur. A quintessentially Nepali snack that has sustained writers, workers, and late-night wanderers for generations.</p>
+            <div class="item-tags"><span class="item-tag">Vegan</span><span class="item-tag">Light</span></div>
+            <div class="item-footer"><span class="item-price">NPR 160</span><a href="https://wa.me/9779802000123?text=Order%3A%20Chiura%20Bhatmas" class="item-order" target="_blank">Order</a></div>
+          </div>
+        </div>
+        <div class="item-card">
+          <div class="item-img"><img src="https://images.unsplash.com/photo-1603894584373-5ac82b2ae398?w=600&q=80" alt="Sekuwa — grilled buff skewers" loading="lazy"/></div>
+          <div class="item-body">
+            <h4 class="item-name">Buff Sekuwa</h4>
+            <p class="item-desc">Skewered chunks of buffalo meat marinated in ginger, garlic, chilli, and fenugreek, grilled directly over charcoal. The smoky char and the tenderness of the meat create an irresistible combination. Served with sliced onion and chilli achar.</p>
+            <div class="item-tags"><span class="item-tag">Grilled</span><span class="item-tag">Popular</span></div>
+            <div class="item-footer"><span class="item-price">NPR 420</span><a href="https://wa.me/9779802000123?text=Order%3A%20Buff%20Sekuwa" class="item-order" target="_blank">Order</a></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="subcat-panel" id="nepali-curry">
+      <h3>Curries &amp; Tarkari</h3>
+      <p class="subcat-desc">The heart of Nepali home cooking — rich, spiced gravies that tell the story of the hills, the Terai, and everything in between.</p>
+      <div class="items-grid">
+        <div class="item-card">
+          <div class="item-img"><img src="https://images.unsplash.com/photo-1603894584373-5ac82b2ae398?w=600&q=80" alt="Lamb curry — slow cooked Nepali lamb" loading="lazy"/></div>
+          <div class="item-body">
+            <h4 class="item-name">Khasi Ko Masu</h4>
+            <p class="item-desc">Slow-cooked goat curry prepared in the traditional Nepali style — bone-in pieces simmered for hours with whole spices, onion masala, and fresh herb paste until the meat falls from the bone. Best eaten with white rice and pickled radish.</p>
+            <div class="item-tags"><span class="item-tag">Slow Cooked</span><span class="item-tag">Signature</span></div>
+            <div class="item-footer"><span class="item-price">NPR 480</span><a href="https://wa.me/9779802000123?text=Order%3A%20Khasi%20Ko%20Masu" class="item-order" target="_blank">Order</a></div>
+          </div>
+        </div>
+        <div class="item-card">
+          <div class="item-img"><img src="https://images.unsplash.com/photo-1574653853027-5382a3d23a15?w=600&q=80" alt="Mixed vegetable tarkari at Metro" loading="lazy"/></div>
+          <div class="item-body">
+            <h4 class="item-name">Mixed Tarkari</h4>
+            <p class="item-desc">A rotating daily selection of seasonal vegetables harvested from local farms — cooked simply with cumin, turmeric, and fresh green chilli to let the natural sweetness and texture shine through. A celebration of the Koshi valley's agricultural abundance.</p>
+            <div class="item-tags"><span class="item-tag">Vegan</span><span class="item-tag">Seasonal</span></div>
+            <div class="item-footer"><span class="item-price">NPR 220</span><a href="https://wa.me/9779802000123?text=Order%3A%20Mixed%20Tarkari" class="item-order" target="_blank">Order</a></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ═══ INDIAN & TANDOOR ═══ -->
+  <div class="menu-cat-panel" id="cat-indian">
+    <div class="cat-banner">
+      <img src="https://images.unsplash.com/photo-1565557623262-b51c2513a641?w=1600&q=80" alt="Indian cuisine and tandoor dishes at Metro Restaurant Itahari" loading="lazy"/>
+      <div class="cat-banner-overlay"></div>
+      <div class="cat-banner-info">
+        <span class="eyebrow">North India &amp; Beyond</span>
+        <h2 class="cat-name">Indian &amp; Tandoor</h2>
+      </div>
+    </div>
+    <div class="subcat-tabs">
+      <button class="subcat-btn active" onclick="switchSubcat('indian','tandoor',this)">Tandoor Specialties</button>
+      <button class="subcat-btn" onclick="switchSubcat('indian','curries',this)">North Indian Curries</button>
+      <button class="subcat-btn" onclick="switchSubcat('indian','breads',this)">Breads &amp; Rice</button>
+      <button class="subcat-btn" onclick="switchSubcat('indian','south',this)">South Indian</button>
+    </div>
+    <div class="subcat-panel active" id="indian-tandoor">
+      <h3>Tandoor Specialties</h3>
+      <p class="subcat-desc">Our clay tandoor reaches 400°C — the temperature at which raw ingredients transform into something extraordinary through the alchemy of extreme heat and live fire.</p>
+      <div class="items-grid">
+        <div class="item-card">
+          <div class="item-img"><img src="https://images.unsplash.com/photo-1567188040759-fb8a883dc6d8?w=600&q=80" alt="Metro Tandoor Mixed Platter — chicken tikka, seekh kebab, paneer" loading="lazy"/><div class="item-badge">Chef's Choice</div></div>
+          <div class="item-body">
+            <h4 class="item-name">Metro Tandoor Platter</h4>
+            <p class="item-desc">Our ultimate showcase — seekh kebab, chicken tikka, reshmi kebab, and paneer tikka, all fired in the clay tandoor and served on a sizzling plate with charred lime, sliced onion, and two house chutneys. The definitive Metro sharing dish.</p>
+            <div class="item-tags"><span class="item-tag">Sharing</span><span class="item-tag">Signature</span></div>
+            <div class="item-footer"><span class="item-price">NPR 780</span><a href="https://wa.me/9779802000123?text=Order%3A%20Metro%20Tandoor%20Platter" class="item-order" target="_blank">Order</a></div>
+          </div>
+        </div>
+        <div class="item-card">
+          <div class="item-img"><img src="https://images.unsplash.com/photo-1565557623262-b51c2513a641?w=600&q=80" alt="Chicken Tikka at Metro Restaurant" loading="lazy"/></div>
+          <div class="item-body">
+            <h4 class="item-name">Chicken Tikka</h4>
+            <p class="item-desc">Boneless chicken thighs marinated overnight in hung curd, lemon, Kashmiri chilli, and spice blend. Skewered and cooked in the tandoor until beautifully charred and smoky. Served with mint chutney and charred lemon.</p>
+            <div class="item-tags"><span class="item-tag">Non-Veg</span></div>
+            <div class="item-footer"><span class="item-price">NPR 460</span><a href="https://wa.me/9779802000123?text=Order%3A%20Chicken%20Tikka" class="item-order" target="_blank">Order</a></div>
+          </div>
+        </div>
+        <div class="item-card">
+          <div class="item-img"><img src="https://images.unsplash.com/photo-1603133872878-684f208fb84b?w=600&q=80" alt="Paneer Tikka — vegetarian tandoor dish" loading="lazy"/></div>
+          <div class="item-body">
+            <h4 class="item-name">Paneer Tikka</h4>
+            <p class="item-desc">Cubes of fresh paneer marinated in yoghurt, carom seeds, and capsicum, threaded onto skewers and blasted in the tandoor. The exterior chars beautifully while the inside remains soft and yielding. A vegetarian triumph of the live fire.</p>
+            <div class="item-tags"><span class="item-tag">Vegetarian</span></div>
+            <div class="item-footer"><span class="item-price">NPR 420</span><a href="https://wa.me/9779802000123?text=Order%3A%20Paneer%20Tikka" class="item-order" target="_blank">Order</a></div>
+          </div>
+        </div>
+        <div class="item-card">
+          <div class="item-img"><img src="https://images.unsplash.com/photo-1589302168068-964664d93dc0?w=600&q=80" alt="Seekh Kebab at Metro Restaurant Itahari" loading="lazy"/></div>
+          <div class="item-body">
+            <h4 class="item-name">Seekh Kebab</h4>
+            <p class="item-desc">Minced chicken mixed with green chilli, ginger, onion, and fragrant spices, moulded onto flat skewers and cooked over charcoal until the exterior is lightly crisped. Served with sliced onion and house raita. A benchmark of North Indian kebab craft.</p>
+            <div class="item-tags"><span class="item-tag">Charcoal</span><span class="item-tag">Popular</span></div>
+            <div class="item-footer"><span class="item-price">NPR 440</span><a href="https://wa.me/9779802000123?text=Order%3A%20Seekh%20Kebab" class="item-order" target="_blank">Order</a></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="subcat-panel" id="indian-curries">
+      <h3>North Indian Curries</h3>
+      <p class="subcat-desc">Rich, complex gravies representing the finest of the North Indian kitchen — each sauce requiring hours of patient preparation.</p>
+      <div class="items-grid">
+        <div class="item-card">
+          <div class="item-img"><img src="https://images.unsplash.com/photo-1603894584373-5ac82b2ae398?w=600&q=80" alt="Butter Chicken — Murgh Makhani at Metro" loading="lazy"/><div class="item-badge">Best Seller</div></div>
+          <div class="item-body">
+            <h4 class="item-name">Butter Chicken</h4>
+            <p class="item-desc">Tender tandoor-fired chicken pieces folded into a velvety tomato-cream sauce enriched with fenugreek leaves and Kashmiri chilli. A North Indian treasure executed to perfection. Best paired with our house-baked butter naan or garlic rice.</p>
+            <div class="item-tags"><span class="item-tag">Non-Veg</span><span class="item-tag">Mild-Medium</span></div>
+            <div class="item-footer"><span class="item-price">NPR 480</span><a href="https://wa.me/9779802000123?text=Order%3A%20Butter%20Chicken" class="item-order" target="_blank">Order</a></div>
+          </div>
+        </div>
+        <div class="item-card">
+          <div class="item-img"><img src="https://images.unsplash.com/photo-1574653853027-5382a3d23a15?w=600&q=80" alt="Dal Makhani — slow cooked black lentils" loading="lazy"/></div>
+          <div class="item-body">
+            <h4 class="item-name">Dal Makhani</h4>
+            <p class="item-desc">Whole black lentils and kidney beans slow-cooked overnight on a wood fire, then finished with butter, cream, and a touch of tomato. The smoky, silky depth of this dish takes three days to fully develop. Best understood with missi roti.</p>
+            <div class="item-tags"><span class="item-tag">Vegetarian</span><span class="item-tag">Overnight</span></div>
+            <div class="item-footer"><span class="item-price">NPR 380</span><a href="https://wa.me/9779802000123?text=Order%3A%20Dal%20Makhani" class="item-order" target="_blank">Order</a></div>
+          </div>
+        </div>
+        <div class="item-card">
+          <div class="item-img"><img src="https://images.unsplash.com/photo-1589302168068-964664d93dc0?w=600&q=80" alt="Chicken Biryani at Metro Restaurant" loading="lazy"/></div>
+          <div class="item-body">
+            <h4 class="item-name">Chicken Dum Biryani</h4>
+            <p class="item-desc">Long-grain basmati layered with marinated chicken, saffron, caramelised onions, and whole spices, then sealed and slow-cooked under pressure until each grain of rice is individually perfumed. Served with raita and a boiled egg. A royal feast.</p>
+            <div class="item-tags"><span class="item-tag">Dum Cooked</span><span class="item-tag">Signature</span></div>
+            <div class="item-footer"><span class="item-price">NPR 460</span><a href="https://wa.me/9779802000123?text=Order%3A%20Chicken%20Dum%20Biryani" class="item-order" target="_blank">Order</a></div>
+          </div>
+        </div>
+        <div class="item-card">
+          <div class="item-img"><img src="https://images.unsplash.com/photo-1565557623262-b51c2513a641?w=600&q=80" alt="Palak Paneer at Metro Restaurant Itahari" loading="lazy"/></div>
+          <div class="item-body">
+            <h4 class="item-name">Palak Paneer</h4>
+            <p class="item-desc">Fresh spinach blanched and pureed with ginger, garlic, and spices, then enriched with cream and studded with cubes of house-made paneer. The vibrant emerald colour is a testament to the freshness of the greens. Served with tawa roti.</p>
+            <div class="item-tags"><span class="item-tag">Vegetarian</span><span class="item-tag">Gluten-Free</span></div>
+            <div class="item-footer"><span class="item-price">NPR 380</span><a href="https://wa.me/9779802000123?text=Order%3A%20Palak%20Paneer" class="item-order" target="_blank">Order</a></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="subcat-panel" id="indian-breads">
+      <h3>Breads &amp; Rice</h3>
+      <p class="subcat-desc">The perfect companions to every curry and grilled dish — baked fresh to order in our hot tandoor oven.</p>
+      <div class="items-grid">
+        <div class="item-card">
+          <div class="item-img"><img src="https://images.unsplash.com/photo-1567188040759-fb8a883dc6d8?w=600&q=80" alt="Garlic Butter Naan at Metro" loading="lazy"/></div>
+          <div class="item-body">
+            <h4 class="item-name">Garlic Butter Naan</h4>
+            <p class="item-desc">Leavened dough slapped onto the walls of the hot tandoor, developing blisters and char while staying pillowy within. Finished with hand-pounded garlic and clarified butter. The naan that most guests insist on ordering twice.</p>
+            <div class="item-tags"><span class="item-tag">Baked Fresh</span></div>
+            <div class="item-footer"><span class="item-price">NPR 80</span><a href="https://wa.me/9779802000123?text=Order%3A%20Garlic%20Butter%20Naan" class="item-order" target="_blank">Order</a></div>
+          </div>
+        </div>
+        <div class="item-card">
+          <div class="item-img"><img src="https://images.unsplash.com/photo-1589302168068-964664d93dc0?w=600&q=80" alt="Jeera Rice at Metro Restaurant" loading="lazy"/></div>
+          <div class="item-body">
+            <h4 class="item-name">Jeera Rice</h4>
+            <p class="item-desc">Aged basmati rice tempered with whole cumin seeds, shallots, and ghee — each grain separate and fragrant. A beautifully simple preparation that complements every gravy on our menu without competing with it.</p>
+            <div class="item-tags"><span class="item-tag">Vegetarian</span></div>
+            <div class="item-footer"><span class="item-price">NPR 140</span><a href="https://wa.me/9779802000123?text=Order%3A%20Jeera%20Rice" class="item-order" target="_blank">Order</a></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="subcat-panel" id="indian-south">
+      <h3>South Indian</h3>
+      <p class="subcat-desc">The bright, aromatic flavours of South India — crisp, light, and utterly satisfying at any hour.</p>
+      <div class="items-grid">
+        <div class="item-card">
+          <div class="item-img"><img src="https://images.unsplash.com/photo-1603133872878-684f208fb84b?w=600&q=80" alt="Masala Dosa at Metro Restaurant Itahari" loading="lazy"/></div>
+          <div class="item-body">
+            <h4 class="item-name">Masala Dosa</h4>
+            <p class="item-desc">A thin, lacey fermented rice-and-lentil crepe cooked until golden and crisp, filled with spiced potato masala brightened with mustard seeds, curry leaves, and onion. Served with coconut chutney, tomato chutney, and a bowl of hot sambar.</p>
+            <div class="item-tags"><span class="item-tag">Vegan</span><span class="item-tag">South Indian</span></div>
+            <div class="item-footer"><span class="item-price">NPR 300</span><a href="https://wa.me/9779802000123?text=Order%3A%20Masala%20Dosa" class="item-order" target="_blank">Order</a></div>
+          </div>
+        </div>
+        <div class="item-card">
+          <div class="item-img"><img src="https://images.unsplash.com/photo-1565557623262-b51c2513a641?w=600&q=80" alt="Idli Sambar at Metro" loading="lazy"/></div>
+          <div class="item-body">
+            <h4 class="item-name">Idli Sambar</h4>
+            <p class="item-desc">Four steamed rice cakes, impossibly soft and cloud-light, served with a deeply spiced lentil-and-tamarind sambar and freshly ground coconut chutney. A breakfast staple of South India that Metro serves all day — because good food has no schedule.</p>
+            <div class="item-tags"><span class="item-tag">Vegan</span><span class="item-tag">Light</span></div>
+            <div class="item-footer"><span class="item-price">NPR 260</span><a href="https://wa.me/9779802000123?text=Order%3A%20Idli%20Sambar" class="item-order" target="_blank">Order</a></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ═══ CHINESE & HAKKA ═══ -->
+  <div class="menu-cat-panel" id="cat-chinese">
+    <div class="cat-banner">
+      <img src="https://images.unsplash.com/photo-1569050467447-ce54b3bbc37d?w=1600&q=80" alt="Chinese and Hakka cuisine at Metro Restaurant Itahari" loading="lazy"/>
+      <div class="cat-banner-overlay"></div>
+      <div class="cat-banner-info">
+        <span class="eyebrow">Wok Mastery</span>
+        <h2 class="cat-name">Chinese &amp; Hakka</h2>
+      </div>
+    </div>
+    <div class="subcat-tabs">
+      <button class="subcat-btn active" onclick="switchSubcat('chinese','starters',this)">Starters</button>
+      <button class="subcat-btn" onclick="switchSubcat('chinese','mains',this)">Main Course</button>
+      <button class="subcat-btn" onclick="switchSubcat('chinese','noodles',this)">Noodles &amp; Rice</button>
+      <button class="subcat-btn" onclick="switchSubcat('chinese','soups',this)">Soups</button>
+    </div>
+    <div class="subcat-panel active" id="chinese-starters">
+      <h3>Starters</h3>
+      <p class="subcat-desc">Bold, punchy flavours from the wok — the ideal accompaniment to cold drinks at the bar.</p>
+      <div class="items-grid">
+        <div class="item-card">
+          <div class="item-img"><img src="https://images.unsplash.com/photo-1603133872878-684f208fb84b?w=600&q=80" alt="Dry Chilli Chicken at Metro Bar" loading="lazy"/><div class="item-badge">Bar Favourite</div></div>
+          <div class="item-body">
+            <h4 class="item-name">Dry Chilli Chicken</h4>
+            <p class="item-desc">Crispy fried chicken tossed in a fierce blend of Sichuan peppers, green chillies, soy sauce, and rice vinegar. A beloved Indo-Chinese classic with bold, electric flavours — inseparable from an ice-cold drink at Metro's bar.</p>
+            <div class="item-tags"><span class="item-tag">Spicy</span><span class="item-tag">Dry</span></div>
+            <div class="item-footer"><span class="item-price">NPR 380</span><a href="https://wa.me/9779802000123?text=Order%3A%20Dry%20Chilli%20Chicken" class="item-order" target="_blank">Order</a></div>
+          </div>
+        </div>
+        <div class="item-card">
+          <div class="item-img"><img src="https://images.unsplash.com/photo-1569050467447-ce54b3bbc37d?w=600&q=80" alt="Crispy Spring Rolls at Metro" loading="lazy"/></div>
+          <div class="item-body">
+            <h4 class="item-name">Crispy Veg Spring Rolls</h4>
+            <p class="item-desc">Thin pastry wrappers filled with stir-fried julienned cabbage, carrot, mushroom, and glass noodles seasoned with oyster sauce and sesame. Deep-fried to a satisfying crunch. Served with hot chilli dip and sweet plum sauce.</p>
+            <div class="item-tags"><span class="item-tag">Vegetarian</span></div>
+            <div class="item-footer"><span class="item-price">NPR 280</span><a href="https://wa.me/9779802000123?text=Order%3A%20Crispy%20Spring%20Rolls" class="item-order" target="_blank">Order</a></div>
+          </div>
+        </div>
+        <div class="item-card">
+          <div class="item-img"><img src="https://images.unsplash.com/photo-1547592180-85f173990554?w=600&q=80" alt="Salt and Pepper Prawns at Metro" loading="lazy"/></div>
+          <div class="item-body">
+            <h4 class="item-name">Salt &amp; Pepper Prawns</h4>
+            <p class="item-desc">Tiger prawns lightly dusted in seasoned flour and deep-fried until the shell is shatteringly crisp. Tossed with spring onion, chilli, and cracked black pepper. A premium bar snack that celebrates the straightforward pleasure of exceptional seafood.</p>
+            <div class="item-tags"><span class="item-tag">Seafood</span><span class="item-tag">Premium</span></div>
+            <div class="item-footer"><span class="item-price">NPR 520</span><a href="https://wa.me/9779802000123?text=Order%3A%20Salt%20and%20Pepper%20Prawns" class="item-order" target="_blank">Order</a></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="subcat-panel" id="chinese-mains">
+      <h3>Main Course</h3>
+      <p class="subcat-desc">Classic Chinese main dishes cooked at high heat in the traditional wok — for maximum flavour and minimum time between plate and palate.</p>
+      <div class="items-grid">
+        <div class="item-card">
+          <div class="item-img"><img src="https://images.unsplash.com/photo-1603133872878-684f208fb84b?w=600&q=80" alt="Sweet and Sour Pork at Metro" loading="lazy"/></div>
+          <div class="item-body">
+            <h4 class="item-name">Sweet &amp; Sour Chicken</h4>
+            <p class="item-desc">Crispy battered chicken with capsicum, pineapple, and onion in a glossy sweet-sour sauce balanced with rice vinegar and tomato. A crowd-pleasing balance of textures and flavours that rewards sharing. Serve with steamed jasmine rice.</p>
+            <div class="item-tags"><span class="item-tag">Mild</span></div>
+            <div class="item-footer"><span class="item-price">NPR 400</span><a href="https://wa.me/9779802000123?text=Order%3A%20Sweet%20Sour%20Chicken" class="item-order" target="_blank">Order</a></div>
+          </div>
+        </div>
+        <div class="item-card">
+          <div class="item-img"><img src="https://images.unsplash.com/photo-1547592180-85f173990554?w=600&q=80" alt="Kung Pao Prawn at Metro" loading="lazy"/></div>
+          <div class="item-body">
+            <h4 class="item-name">Kung Pao Prawn</h4>
+            <p class="item-desc">Succulent tiger prawns stir-fried with roasted peanuts, dried red chillies, and spring onion in the classic Sichuan sauce of soy, vinegar, and sesame. Numbing, spicy, and deeply satisfying. A Chinese restaurant benchmark dish done exceptionally well.</p>
+            <div class="item-tags"><span class="item-tag">Spicy</span><span class="item-tag">Seafood</span></div>
+            <div class="item-footer"><span class="item-price">NPR 540</span><a href="https://wa.me/9779802000123?text=Order%3A%20Kung%20Pao%20Prawn" class="item-order" target="_blank">Order</a></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="subcat-panel" id="chinese-noodles">
+      <h3>Noodles &amp; Rice</h3>
+      <p class="subcat-desc">Satisfying wok-fried one-bowl meals — a cornerstone of Metro's lunch and late-night crowd.</p>
+      <div class="items-grid">
+        <div class="item-card">
+          <div class="item-img"><img src="https://images.unsplash.com/photo-1569718212165-3a8278d5f624?w=600&q=80" alt="Vegetable Hakka Noodles at Metro" loading="lazy"/></div>
+          <div class="item-body">
+            <h4 class="item-name">Vegetable Hakka Noodles</h4>
+            <p class="item-desc">Stir-fried egg noodles with fresh garden vegetables, oyster sauce, and sesame oil, tossed in a screaming-hot wok for maximum smoky char. Available with chicken or prawn. A universally beloved Indo-Chinese staple made with exceptional technique.</p>
+            <div class="item-tags"><span class="item-tag">Wok Fried</span></div>
+            <div class="item-footer"><span class="item-price">NPR 300</span><a href="https://wa.me/9779802000123?text=Order%3A%20Hakka%20Noodles" class="item-order" target="_blank">Order</a></div>
+          </div>
+        </div>
+        <div class="item-card">
+          <div class="item-img"><img src="https://images.unsplash.com/photo-1603894584373-5ac82b2ae398?w=600&q=80" alt="Fried Rice with egg at Metro Restaurant" loading="lazy"/></div>
+          <div class="item-body">
+            <h4 class="item-name">Egg Fried Rice</h4>
+            <p class="item-desc">Day-old jasmine rice (the secret to excellent fried rice) tossed with scrambled egg, soy sauce, spring onion, and white pepper over maximum heat. Deceptively simple, infinitely satisfying. Add chicken, prawn, or keep it pure.</p>
+            <div class="item-tags"><span class="item-tag">Classic</span></div>
+            <div class="item-footer"><span class="item-price">NPR 260</span><a href="https://wa.me/9779802000123?text=Order%3A%20Egg%20Fried%20Rice" class="item-order" target="_blank">Order</a></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="subcat-panel" id="chinese-soups">
+      <h3>Soups</h3>
+      <p class="subcat-desc">From crystal-clear broths to thickened, hearty bowls — soups that warm from the inside out.</p>
+      <div class="items-grid">
+        <div class="item-card">
+          <div class="item-img"><img src="https://images.unsplash.com/photo-1547592180-85f173990554?w=600&q=80" alt="Hot and Sour Soup at Metro" loading="lazy"/></div>
+          <div class="item-body">
+            <h4 class="item-name">Hot &amp; Sour Soup</h3>
+            <p class="item-desc">A bold, peppery, vinegar-spiked broth thick with silken tofu, wood-ear mushroom, bamboo shoot, and egg ribbons. The heat comes from white pepper; the sour from Chinese black vinegar. A definitive cold-weather and hangover cure in equal measure.</p>
+            <div class="item-tags"><span class="item-tag">Spicy</span><span class="item-tag">Vegetarian</span></div>
+            <div class="item-footer"><span class="item-price">NPR 240</span><a href="https://wa.me/9779802000123?text=Order%3A%20Hot%20Sour%20Soup" class="item-order" target="_blank">Order</a></div>
+          </div>
+        </div>
+        <div class="item-card">
+          <div class="item-img"><img src="https://images.unsplash.com/photo-1567364816519-cbc9c4ffe1eb?w=600&q=80" alt="Prawn Wonton Soup at Metro" loading="lazy"/></div>
+          <div class="item-body">
+            <h4 class="item-name">Prawn Wonton Soup</h4>
+            <p class="item-desc">Delicate hand-wrapped wontons filled with spiced prawn and water chestnut, floating in a clear ginger-scallion broth finished with chilli oil and crispy shallot. A bowl that rewards patience — eat it slowly, and it keeps giving.</p>
+            <div class="item-tags"><span class="item-tag">Seafood</span><span class="item-tag">Clear Broth</span></div>
+            <div class="item-footer"><span class="item-price">NPR 360</span><a href="https://wa.me/9779802000123?text=Order%3A%20Prawn%20Wonton%20Soup" class="item-order" target="_blank">Order</a></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ═══ CONTINENTAL ═══ -->
+  <div class="menu-cat-panel" id="cat-continental">
+    <div class="cat-banner">
+      <img src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=1600&q=80" alt="Continental cuisine at Metro Restaurant Itahari" loading="lazy"/>
+      <div class="cat-banner-overlay"></div>
+      <div class="cat-banner-info">
+        <span class="eyebrow">European Tradition</span>
+        <h2 class="cat-name">Continental</h2>
+      </div>
+    </div>
+    <div class="subcat-tabs">
+      <button class="subcat-btn active" onclick="switchSubcat('continental','grill',this)">Grills &amp; Mains</button>
+      <button class="subcat-btn" onclick="switchSubcat('continental','pasta',this)">Pasta &amp; Risotto</button>
+      <button class="subcat-btn" onclick="switchSubcat('continental','salads',this)">Salads &amp; Light</button>
+    </div>
+    <div class="subcat-panel active" id="continental-grill">
+      <h3>Grills &amp; Mains</h3>
+      <p class="subcat-desc">Premium proteins grilled over charcoal and finished with classical European sauces. The benchmark of Metro's fine dining proposition.</p>
+      <div class="items-grid">
+        <div class="item-card">
+          <div class="item-img"><img src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=600&q=80" alt="Herb Grilled Chicken at Metro Restaurant" loading="lazy"/></div>
+          <div class="item-body">
+            <h4 class="item-name">Herb-Grilled Chicken</h4>
+            <p class="item-desc">Free-range chicken breast marinated in lemon, fresh thyme, rosemary, and garlic, grilled over charcoal and finished with a lemon beurre blanc. Accompanied by roasted seasonal vegetables and a choice of crushed potato or herb rice.</p>
+            <div class="item-tags"><span class="item-tag">Non-Veg</span><span class="item-tag">Gluten-Free</span></div>
+            <div class="item-footer"><span class="item-price">NPR 580</span><a href="https://wa.me/9779802000123?text=Order%3A%20Herb%20Grilled%20Chicken" class="item-order" target="_blank">Order</a></div>
+          </div>
+        </div>
+        <div class="item-card">
+          <div class="item-img"><img src="https://images.unsplash.com/photo-1555949258-eb67b1ef0ceb?w=600&q=80" alt="Pan-seared fish fillet at Metro" loading="lazy"/></div>
+          <div class="item-body">
+            <h4 class="item-name">Pan-Seared Fish Fillet</h4>
+            <p class="item-desc">Freshwater fish fillet patted dry and seared in clarified butter until the skin is paper-thin and crisp, flesh just set. Placed on a bed of sauteed spinach and served with a caperberry-lemon butter and steamed asparagus. A study in restraint.</p>
+            <div class="item-tags"><span class="item-tag">Seafood</span><span class="item-tag">Light</span></div>
+            <div class="item-footer"><span class="item-price">NPR 620</span><a href="https://wa.me/9779802000123?text=Order%3A%20Pan%20Seared%20Fish" class="item-order" target="_blank">Order</a></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="subcat-panel" id="continental-pasta">
+      <h3>Pasta &amp; Risotto</h3>
+      <p class="subcat-desc">Italian classics prepared with the patience and precision they deserve — no shortcuts in Metro's kitchen.</p>
+      <div class="items-grid">
+        <div class="item-card">
+          <div class="item-img"><img src="https://images.unsplash.com/photo-1555949258-eb67b1ef0ceb?w=600&q=80" alt="Wild Mushroom Risotto at Metro" loading="lazy"/></div>
+          <div class="item-body">
+            <h4 class="item-name">Wild Mushroom Risotto</h4>
+            <p class="item-desc">Arborio rice slowly stirred with white wine reduction, a rotating selection of wild mushrooms, and aged parmesan — finished with truffle oil and a scatter of fresh thyme. Rich, earthy, and luxuriously creamy. A signature comfort dish.</p>
+            <div class="item-tags"><span class="item-tag">Vegetarian</span><span class="item-tag">Slow Cooked</span></div>
+            <div class="item-footer"><span class="item-price">NPR 520</span><a href="https://wa.me/9779802000123?text=Order%3A%20Wild%20Mushroom%20Risotto" class="item-order" target="_blank">Order</a></div>
+          </div>
+        </div>
+        <div class="item-card">
+          <div class="item-img"><img src="https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?w=600&q=80" alt="Chicken Arrabiata Pasta at Metro" loading="lazy"/></div>
+          <div class="item-body">
+            <h4 class="item-name">Chicken Arrabbiata</h4>
+            <p class="item-desc">Penne pasta in a fierce tomato sauce fired with dried chilli, garlic, and fresh basil, tossed with grilled chicken strips and finished with parmesan. The arrabbiata of Italian culinary tradition — which translates, delightfully, as "angry."</p>
+            <div class="item-tags"><span class="item-tag">Spicy</span><span class="item-tag">Non-Veg</span></div>
+            <div class="item-footer"><span class="item-price">NPR 460</span><a href="https://wa.me/9779802000123?text=Order%3A%20Chicken%20Arrabiata" class="item-order" target="_blank">Order</a></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="subcat-panel" id="continental-salads">
+      <h3>Salads &amp; Light Bites</h3>
+      <p class="subcat-desc">Fresh, bright preparations for those who prefer a lighter dining experience without sacrificing flavour.</p>
+      <div class="items-grid">
+        <div class="item-card">
+          <div class="item-img"><img src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=600&q=80" alt="Caesar Salad at Metro Restaurant" loading="lazy"/></div>
+          <div class="item-body">
+            <h4 class="item-name">Classic Caesar</h4>
+            <p class="item-desc">Romaine hearts, house-made Caesar dressing with anchovy and parmesan, charred croutons, and a two-minute egg. Made tableside on weekends. Add grilled chicken or cured salmon for a complete meal.</p>
+            <div class="item-tags"><span class="item-tag">Classic</span></div>
+            <div class="item-footer"><span class="item-price">NPR 340</span><a href="https://wa.me/9779802000123?text=Order%3A%20Caesar%20Salad" class="item-order" target="_blank">Order</a></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ═══ SNACKS & STARTERS ═══ -->
+  <div class="menu-cat-panel" id="cat-snacks">
+    <div class="cat-banner">
+      <img src="https://images.unsplash.com/photo-1603133872878-684f208fb84b?w=1600&q=80" alt="Snacks and starters at Metro Restaurant Bar" loading="lazy"/>
+      <div class="cat-banner-overlay"></div>
+      <div class="cat-banner-info">
+        <span class="eyebrow">Begin the Journey</span>
+        <h2 class="cat-name">Snacks &amp; Starters</h2>
+      </div>
+    </div>
+    <div class="subcat-tabs">
+      <button class="subcat-btn active" onclick="switchSubcat('snacks','bar',this)">Bar Bites</button>
+      <button class="subcat-btn" onclick="switchSubcat('snacks','veg',this)">Vegetarian</button>
+      <button class="subcat-btn" onclick="switchSubcat('snacks','nonveg',this)">Non-Vegetarian</button>
+    </div>
+    <div class="subcat-panel active" id="snacks-bar">
+      <h3>Bar Bites</h3>
+      <p class="subcat-desc">Designed to pair with cocktails and cold drinks — small, shareable, and full of flavour.</p>
+      <div class="items-grid">
+        <div class="item-card">
+          <div class="item-img"><img src="https://images.unsplash.com/photo-1603133872878-684f208fb84b?w=600&q=80" alt="Metro Bar Platter for sharing" loading="lazy"/><div class="item-badge">Share</div></div>
+          <div class="item-body">
+            <h4 class="item-name">Metro Bar Board</h4>
+            <p class="item-desc">A generous sharing board of buff choila, crispy chicken wings, buff sekuwa skewers, and chiura bhatmas sadeko — designed to fuel a long evening at the bar. Accompanied by three house dipping sauces and fresh chilli.</p>
+            <div class="item-tags"><span class="item-tag">Sharing</span><span class="item-tag">Popular</span></div>
+            <div class="item-footer"><span class="item-price">NPR 680</span><a href="https://wa.me/9779802000123?text=Order%3A%20Metro%20Bar%20Board" class="item-order" target="_blank">Order</a></div>
+          </div>
+        </div>
+        <div class="item-card">
+          <div class="item-img"><img src="https://images.unsplash.com/photo-1625220194771-7ebdea0b70b9?w=600&q=80" alt="Chicken Wings at Metro Bar" loading="lazy"/></div>
+          <div class="item-body">
+            <h4 class="item-name">Crispy Chicken Wings</h4>
+            <p class="item-desc">Double-fried chicken wings in a choice of Sichuan honey-chilli glaze or classic Buffalo sauce. Served with blue cheese dip and celery sticks. Addictively good and unapologetically messy — finger food in the best possible sense.</p>
+            <div class="item-tags"><span class="item-tag">Spicy Option</span><span class="item-tag">Bar Favourite</span></div>
+            <div class="item-footer"><span class="item-price">NPR 380</span><a href="https://wa.me/9779802000123?text=Order%3A%20Crispy%20Chicken%20Wings" class="item-order" target="_blank">Order</a></div>
+          </div>
+        </div>
+        <div class="item-card">
+          <div class="item-img"><img src="https://images.unsplash.com/photo-1567188040759-fb8a883dc6d8?w=600&q=80" alt="Nachos at Metro Restaurant" loading="lazy"/></div>
+          <div class="item-body">
+            <h4 class="item-name">Metro Loaded Nachos</h4>
+            <p class="item-desc">Crispy corn tortilla chips loaded with cheddar mornay, pickled jalapeño, sour cream, fresh pico de gallo, and a drizzle of sriracha. Optional chicken tikka topping elevates this into a full meal. The bar's most photographed dish.</p>
+            <div class="item-tags"><span class="item-tag">Vegetarian Option</span></div>
+            <div class="item-footer"><span class="item-price">NPR 420</span><a href="https://wa.me/9779802000123?text=Order%3A%20Metro%20Loaded%20Nachos" class="item-order" target="_blank">Order</a></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="subcat-panel" id="snacks-veg">
+      <h3>Vegetarian Starters</h3>
+      <p class="subcat-desc">Inventive vegetable-forward dishes that prove plant-based cooking is anything but boring.</p>
+      <div class="items-grid">
+        <div class="item-card">
+          <div class="item-img"><img src="https://images.unsplash.com/photo-1574653853027-5382a3d23a15?w=600&q=80" alt="Veg Samosa at Metro Restaurant" loading="lazy"/></div>
+          <div class="item-body">
+            <h4 class="item-name">Aloo Pyaz Samosa</h4>
+            <p class="item-desc">Hand-crimped pastry parcels filled with spiced potato, caramelised onion, and peas, fried to a golden shatter. Served with house tamarind chutney and fresh coriander-mint sauce. A subcontinental classic that never fails to comfort.</p>
+            <div class="item-tags"><span class="item-tag">Vegan</span><span class="item-tag">Classic</span></div>
+            <div class="item-footer"><span class="item-price">NPR 180</span><a href="https://wa.me/9779802000123?text=Order%3A%20Aloo%20Pyaz%20Samosa" class="item-order" target="_blank">Order</a></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="subcat-panel" id="snacks-nonveg">
+      <h3>Non-Vegetarian Starters</h3>
+      <p class="subcat-desc">Meat-forward starters that set the tone for a serious evening of eating and drinking.</p>
+      <div class="items-grid">
+        <div class="item-card">
+          <div class="item-img"><img src="https://images.unsplash.com/photo-1565557623262-b51c2513a641?w=600&q=80" alt="Chicken 65 at Metro Restaurant Itahari" loading="lazy"/></div>
+          <div class="item-body">
+            <h4 class="item-name">Chicken 65</h4>
+            <p class="item-desc">A South Indian bar icon — chicken marinated in yoghurt, Kashmiri chilli, and curry leaves, deep-fried until blistered and scarlet. Tossed with fresh curry leaves, green chilli, and lemon. The number 65 is debated; the deliciousness is not.</p>
+            <div class="item-tags"><span class="item-tag">Spicy</span><span class="item-tag">South Indian</span></div>
+            <div class="item-footer"><span class="item-price">NPR 360</span><a href="https://wa.me/9779802000123?text=Order%3A%20Chicken%2065" class="item-order" target="_blank">Order</a></div>
+          </div>
+        </div>
+        <div class="item-card">
+          <div class="item-img"><img src="https://images.unsplash.com/photo-1603894584373-5ac82b2ae398?w=600&q=80" alt="Fish Pakora at Metro Restaurant" loading="lazy"/></div>
+          <div class="item-body">
+            <h4 class="item-name">Fish Pakora</h4>
+            <p class="item-desc">Thick fish fillets in a turmeric-spiced chickpea batter, fried until the coating is lacy and crisp while the fish inside remains tender and flaking. Served with sliced onion, lemon, and our house green chutney. A perennial favourite.</p>
+            <div class="item-tags"><span class="item-tag">Seafood</span><span class="item-tag">Fried</span></div>
+            <div class="item-footer"><span class="item-price">NPR 400</span><a href="https://wa.me/9779802000123?text=Order%3A%20Fish%20Pakora" class="item-order" target="_blank">Order</a></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ═══ COCKTAILS ═══ -->
+  <div class="menu-cat-panel" id="cat-cocktails">
+    <div class="cat-banner">
+      <img src="https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?w=1600&q=80" alt="Craft cocktails at Metro Bar Itahari Nepal" loading="lazy"/>
+      <div class="cat-banner-overlay"></div>
+      <div class="cat-banner-info">
+        <span class="eyebrow">The Bar Programme</span>
+        <h2 class="cat-name">Cocktails</h2>
+      </div>
+    </div>
+    <div class="subcat-tabs">
+      <button class="subcat-btn active" onclick="switchSubcat('cocktails','signature',this)">Metro Signatures</button>
+      <button class="subcat-btn" onclick="switchSubcat('cocktails','classic',this)">Classic Cocktails</button>
+      <button class="subcat-btn" onclick="switchSubcat('cocktails','gin',this)">Gin &amp; Tonic</button>
+      <button class="subcat-btn" onclick="switchSubcat('cocktails','whisky',this)">Whisky Cocktails</button>
+    </div>
+    <div class="subcat-panel active" id="cocktails-signature">
+      <h3>Metro Signature Cocktails</h3>
+      <p class="subcat-desc">Original creations conceived by our bar team, each inspired by the landscapes, flavours, and culture of Nepal and the Koshi region.</p>
+      <div class="drinks-grid">
+        <div class="drink-card">
+          <div class="drink-icon">M.</div>
+          <div class="drink-name">Metro Himalayan</div>
+          <div class="drink-desc">Our flagship — gin infused with Timur pepper and mountain herbs, fresh lemon juice, local wild honey, elderflower tonic, and a sprig of fresh thyme. Served tall over hand-cut ice. Fragrant, complex, and unmistakably Nepali.</div>
+          <div class="drink-notes">Gin · Timur · Wild Honey · Elderflower</div>
+          <div class="drink-footer"><span class="drink-price">NPR 680</span><a href="https://wa.me/9779802000123?text=Order%3A%20Metro%20Himalayan" class="item-order" target="_blank">Order</a></div>
+        </div>
+        <div class="drink-card">
+          <div class="drink-icon">K.</div>
+          <div class="drink-name">Koshi Sunset</div>
+          <div class="drink-desc">A vivid layered cocktail of white rum, fresh Terai mango juice, passion fruit, lime, and a float of Campari that bleeds downward like a Bihar sunset. Citrusy, tropical, and visually dramatic. The bar's most-photographed creation.</div>
+          <div class="drink-notes">White Rum · Mango · Passion Fruit · Campari</div>
+          <div class="drink-footer"><span class="drink-price">NPR 620</span><a href="https://wa.me/9779802000123?text=Order%3A%20Koshi%20Sunset" class="item-order" target="_blank">Order</a></div>
+        </div>
+        <div class="drink-card">
+          <div class="drink-icon">D.</div>
+          <div class="drink-name">Dharan Spice</div>
+          <div class="drink-desc">A warming sipper of aged rum, house-made masala syrup (cardamom, clove, cinnamon), fresh lime, ginger beer, and a burnt orange slice. Inspired by the spice-trading routes that passed through Dharan to Tibet. Complex and deeply satisfying.</div>
+          <div class="drink-notes">Dark Rum · Masala Syrup · Ginger · Orange</div>
+          <div class="drink-footer"><span class="drink-price">NPR 640</span><a href="https://wa.me/9779802000123?text=Order%3A%20Dharan%20Spice" class="item-order" target="_blank">Order</a></div>
+        </div>
+        <div class="drink-card">
+          <div class="drink-icon">S.</div>
+          <div class="drink-name">Sunsari Garden</div>
+          <div class="drink-desc">Vodka with fresh cucumber, basil, and elderflower liqueur, shaken hard with lime and a touch of sugar, strained into a coupe over a cucumber ribbon. Clean, herbal, and refreshing — the preferred drink of Itahari's summer evenings.</div>
+          <div class="drink-notes">Vodka · Cucumber · Basil · Elderflower</div>
+          <div class="drink-footer"><span class="drink-price">NPR 620</span><a href="https://wa.me/9779802000123?text=Order%3A%20Sunsari%20Garden" class="item-order" target="_blank">Order</a></div>
+        </div>
+        <div class="drink-card">
+          <div class="drink-icon">T.</div>
+          <div class="drink-name">Terai Mango Smash</div>
+          <div class="drink-desc">Ripe Terai Alphonso mango pureed and shaken with white rum, fresh lime, brown sugar, and a handful of garden mint. Topped with sparkling water. Gloriously tropical and unabashedly Nepali summer in a glass.</div>
+          <div class="drink-notes">White Rum · Mango · Mint · Lime</div>
+          <div class="drink-footer"><span class="drink-price">NPR 580</span><a href="https://wa.me/9779802000123?text=Order%3A%20Terai%20Mango%20Smash" class="item-order" target="_blank">Order</a></div>
+        </div>
+        <div class="drink-card">
+          <div class="drink-icon">E.</div>
+          <div class="drink-name">Eastern Fire</div>
+          <div class="drink-desc">Not for the timid — tequila, fresh jalapeño, blood orange juice, agave, and a smoky mezcal rinse on the glass. Named for the volcanic energy of Itahari's Saturday nights. The cocktail that has ended more evenings than it has started.</div>
+          <div class="drink-notes">Tequila · Jalapeño · Mezcal · Blood Orange</div>
+          <div class="drink-footer"><span class="drink-price">NPR 700</span><a href="https://wa.me/9779802000123?text=Order%3A%20Eastern%20Fire" class="item-order" target="_blank">Order</a></div>
+        </div>
+      </div>
+    </div>
+    <div class="subcat-panel" id="cocktails-classic">
+      <h3>Classic Cocktails</h3>
+      <p class="subcat-desc">The canon. Prepared exactly as intended — because a great Negroni is a great Negroni anywhere on earth.</p>
+      <div class="drinks-grid">
+        <div class="drink-card">
+          <div class="drink-icon">N.</div>
+          <div class="drink-name">Negroni</div>
+          <div class="drink-desc">Equal parts gin, sweet vermouth, and Campari, stirred over ice until silky cold and perfectly diluted, strained over a large ice sphere and garnished with an expressed orange peel. The most honest cocktail ever invented.</div>
+          <div class="drink-notes">Gin · Campari · Sweet Vermouth</div>
+          <div class="drink-footer"><span class="drink-price">NPR 720</span><a href="https://wa.me/9779802000123?text=Order%3A%20Negroni" class="item-order" target="_blank">Order</a></div>
+        </div>
+        <div class="drink-card">
+          <div class="drink-icon">O.</div>
+          <div class="drink-name">Old Fashioned</div>
+          <div class="drink-desc">Bourbon or rye whiskey, sugar, Angostura bitters, and an expressed orange peel — stirred until cold and served over one large hand-cut block of ice. There is no more perfect cocktail for sitting quietly at a well-lit bar and thinking clearly.</div>
+          <div class="drink-notes">Bourbon · Sugar · Angostura · Orange</div>
+          <div class="drink-footer"><span class="drink-price">NPR 760</span><a href="https://wa.me/9779802000123?text=Order%3A%20Old%20Fashioned" class="item-order" target="_blank">Order</a></div>
+        </div>
+        <div class="drink-card">
+          <div class="drink-icon">A.</div>
+          <div class="drink-name">Aperol Spritz</div>
+          <div class="drink-desc">Aperol, Prosecco, and a splash of soda water over ice — the colour of a perfect Italian afternoon, and the flavour to match. Bittersweet, effervescent, and irresistible. Served in a large wine glass with a thick orange wheel.</div>
+          <div class="drink-notes">Aperol · Prosecco · Soda</div>
+          <div class="drink-footer"><span class="drink-price">NPR 640</span><a href="https://wa.me/9779802000123?text=Order%3A%20Aperol%20Spritz" class="item-order" target="_blank">Order</a></div>
+        </div>
+        <div class="drink-card">
+          <div class="drink-icon">M.</div>
+          <div class="drink-name">Margarita</div>
+          <div class="drink-desc">Silver tequila, fresh lime juice, and triple sec, shaken until ice cold and served in a salt-rimmed coupe. Optionally spiced with a jalapeño slice. The simplest cocktail with the greatest margin for error — Metro's version makes none.</div>
+          <div class="drink-notes">Tequila · Lime · Triple Sec · Salt Rim</div>
+          <div class="drink-footer"><span class="drink-price">NPR 680</span><a href="https://wa.me/9779802000123?text=Order%3A%20Margarita" class="item-order" target="_blank">Order</a></div>
+        </div>
+      </div>
+    </div>
+    <div class="subcat-panel" id="cocktails-gin">
+      <h3>Gin &amp; Tonic</h3>
+      <p class="subcat-desc">A curated selection of premium gins paired with complementary tonics, botanicals, and garnishes. Served in copa glasses over hand-cut ice.</p>
+      <div class="drinks-grid">
+        <div class="drink-card">
+          <div class="drink-icon">G.</div>
+          <div class="drink-name">Classic London Dry G&amp;T</div>
+          <div class="drink-desc">A house London Dry gin with premium Indian tonic water, a wedge of lime, and fresh juniper berries. Cold, balanced, and as clean as mountain air. The baseline against which all gin-tonics are measured.</div>
+          <div class="drink-notes">London Dry Gin · Indian Tonic · Lime · Juniper</div>
+          <div class="drink-footer"><span class="drink-price">NPR 580</span><a href="https://wa.me/9779802000123?text=Order%3A%20Classic%20GT" class="item-order" target="_blank">Order</a></div>
+        </div>
+        <div class="drink-card">
+          <div class="drink-icon">H.</div>
+          <div class="drink-name">Himalayan Botanicals G&amp;T</div>
+          <div class="drink-desc">Our house-infused Timur gin paired with elderflower tonic, garnished with dried Himalayan berries, a sprig of rosemary, and pink peppercorn. Fragrant, earthy, and entirely unique to Metro's bar. A sensory postcard from the hills.</div>
+          <div class="drink-notes">Timur Gin · Elderflower Tonic · Himalayan Berries</div>
+          <div class="drink-footer"><span class="drink-price">NPR 680</span><a href="https://wa.me/9779802000123?text=Order%3A%20Himalayan%20GT" class="item-order" target="_blank">Order</a></div>
+        </div>
+      </div>
+    </div>
+    <div class="subcat-panel" id="cocktails-whisky">
+      <h3>Whisky Cocktails</h3>
+      <p class="subcat-desc">For those who approach whisky with reverence — cocktails that enhance rather than mask what makes each spirit exceptional.</p>
+      <div class="drinks-grid">
+        <div class="drink-card">
+          <div class="drink-icon">W.</div>
+          <div class="drink-name">Whisky Sour</div>
+          <div class="drink-desc">Bourbon shaken with fresh lemon juice, simple syrup, and a whole egg white until silky and foamy. Served with Angostura bitters dotted on the foam and a brandied cherry. The definitive test of a bartender's technique.</div>
+          <div class="drink-notes">Bourbon · Lemon · Egg White · Angostura</div>
+          <div class="drink-footer"><span class="drink-price">NPR 700</span><a href="https://wa.me/9779802000123?text=Order%3A%20Whisky%20Sour" class="item-order" target="_blank">Order</a></div>
+        </div>
+        <div class="drink-card">
+          <div class="drink-icon">P.</div>
+          <div class="drink-name">Penicillin</div>
+          <div class="drink-desc">A modern classic — blended Scotch, fresh lemon juice, honey-ginger syrup, and a smoky Islay Scotch float. The balance of smoke, heat, and citrus is a masterclass in cocktail architecture. One of the greatest modern cocktail innovations.</div>
+          <div class="drink-notes">Scotch · Islay Float · Honey-Ginger · Lemon</div>
+          <div class="drink-footer"><span class="drink-price">NPR 760</span><a href="https://wa.me/9779802000123?text=Order%3A%20Penicillin" class="item-order" target="_blank">Order</a></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ═══ MOCKTAILS & JUICES ═══ -->
+  <div class="menu-cat-panel" id="cat-mocktails">
+    <div class="cat-banner">
+      <img src="https://images.unsplash.com/photo-1483000805330-4eaf0a0d82da?w=1600&q=80" alt="Mocktails and fresh juices at Metro Restaurant Itahari" loading="lazy"/>
+      <div class="cat-banner-overlay"></div>
+      <div class="cat-banner-info">
+        <span class="eyebrow">Alcohol-Free</span>
+        <h2 class="cat-name">Mocktails &amp; Juices</h2>
+      </div>
+    </div>
+    <div class="subcat-tabs">
+      <button class="subcat-btn active" onclick="switchSubcat('mocktails','mocktails',this)">Mocktails</button>
+      <button class="subcat-btn" onclick="switchSubcat('mocktails','juices',this)">Fresh Juices &amp; Lassi</button>
+      <button class="subcat-btn" onclick="switchSubcat('mocktails','hot',this)">Hot Beverages</button>
+    </div>
+    <div class="subcat-panel active" id="mocktails-mocktails">
+      <h3>Signature Mocktails</h3>
+      <p class="subcat-desc">Full-flavour, zero-alcohol creations that deserve to stand alongside our cocktail programme — not as lesser alternatives, but as artful compositions in their own right.</p>
+      <div class="drinks-grid">
+        <div class="drink-card">
+          <div class="drink-icon">V.</div>
+          <div class="drink-name">Virgin Metro Himalayan</div>
+          <div class="drink-desc">All the complexity of our signature cocktail without the gin — Timur-infused water, fresh lemon, wild honey, elderflower cordial, and premium tonic. Garnished identically to the original. Prove that the best drink is about technique, not alcohol.</div>
+          <div class="drink-notes">Timur · Wild Honey · Lemon · Elderflower</div>
+          <div class="drink-footer"><span class="drink-price">NPR 360</span><a href="https://wa.me/9779802000123?text=Order%3A%20Virgin%20Metro%20Himalayan" class="item-order" target="_blank">Order</a></div>
+        </div>
+        <div class="drink-card">
+          <div class="drink-icon">M.</div>
+          <div class="drink-name">Terai Mango Mojito</div>
+          <div class="drink-desc">Fresh Terai mango muddled with garden mint, lime wedges, and raw cane sugar, topped with soda water and ice. Tropical, bright, and deeply refreshing. The drink that most guests order first on their initial visit, and request again at every subsequent one.</div>
+          <div class="drink-notes">Mango · Mint · Lime · Soda</div>
+          <div class="drink-footer"><span class="drink-price">NPR 340</span><a href="https://wa.me/9779802000123?text=Order%3A%20Terai%20Mango%20Mojito" class="item-order" target="_blank">Order</a></div>
+        </div>
+        <div class="drink-card">
+          <div class="drink-icon">B.</div>
+          <div class="drink-name">Blue Lagoon</div>
+          <div class="drink-desc">A spectacular non-alcoholic creation — butterfly pea flower tea shifts from deep violet to brilliant blue on contact with lemon juice, combined with lychee syrup and soda. Visually extraordinary and genuinely delicious. Perfect for Instagram and the soul.</div>
+          <div class="drink-notes">Blue Pea Tea · Lychee · Lemon · Soda</div>
+          <div class="drink-footer"><span class="drink-price">NPR 320</span><a href="https://wa.me/9779802000123?text=Order%3A%20Blue%20Lagoon" class="item-order" target="_blank">Order</a></div>
+        </div>
+      </div>
+    </div>
+    <div class="subcat-panel" id="mocktails-juices">
+      <h3>Fresh Juices &amp; Lassi</h3>
+      <p class="subcat-desc">Pressed and blended daily from locally sourced fruits — direct from Sunsari and Morang district farms to your glass.</p>
+      <div class="drinks-grid">
+        <div class="drink-card">
+          <div class="drink-icon">J.</div>
+          <div class="drink-name">Fresh Sugarcane Juice</div>
+          <div class="drink-desc">Cold-pressed sugarcane from Terai farms, with fresh ginger and a squeeze of lime. Sweet, earthy, and intensely satisfying in the heat of the plains. One of Nepal's oldest and most beloved drinks — and one of the best things we serve.</div>
+          <div class="drink-notes">Sugarcane · Ginger · Lime · Ice</div>
+          <div class="drink-footer"><span class="drink-price">NPR 180</span><a href="https://wa.me/9779802000123?text=Order%3A%20Sugarcane%20Juice" class="item-order" target="_blank">Order</a></div>
+        </div>
+        <div class="drink-card">
+          <div class="drink-icon">L.</div>
+          <div class="drink-name">Rose Lassi</div>
+          <div class="drink-desc">Thick, hand-stirred whole-milk yoghurt blended with rose water, a pinch of cardamom, and cold milk until frothy and ice-cold. Finished with dried rose petals and pistachios. A drink from the Subcontinent's great culinary heritage — and a Metro essential.</div>
+          <div class="drink-notes">Yoghurt · Rose Water · Cardamom · Pistachio</div>
+          <div class="drink-footer"><span class="drink-price">NPR 220</span><a href="https://wa.me/9779802000123?text=Order%3A%20Rose%20Lassi" class="item-order" target="_blank">Order</a></div>
+        </div>
+      </div>
+    </div>
+    <div class="subcat-panel" id="mocktails-hot">
+      <h3>Hot Beverages</h3>
+      <p class="subcat-desc">A warming selection to close a meal or start a slow morning — Nepal's finest teas feature prominently.</p>
+      <div class="drinks-grid">
+        <div class="drink-card">
+          <div class="drink-icon">C.</div>
+          <div class="drink-name">Masala Chai</div>
+          <div class="drink-desc">Strong Nepali CTC tea simmered with whole spices — cardamom, clove, cinnamon, black pepper, and fresh ginger — enriched with full-fat milk and sweetened to taste. The official drink of Itahari's mornings, afternoons, and evenings. Served in a kulhad.</div>
+          <div class="drink-notes">CTC Tea · Whole Spices · Full-Fat Milk</div>
+          <div class="drink-footer"><span class="drink-price">NPR 120</span><a href="https://wa.me/9779802000123?text=Order%3A%20Masala%20Chai" class="item-order" target="_blank">Order</a></div>
+        </div>
+        <div class="drink-card">
+          <div class="drink-icon">I.</div>
+          <div class="drink-name">Ilam First Flush</div>
+          <div class="drink-desc">A single-estate Darjeeling-style tea from the Ilam region of Nepal — golden, floral, and extraordinarily delicate. Brewed at 80°C in a pre-warmed teapot and served with a small honeycomb. The finest thing we pour at Metro, and the most overlooked.</div>
+          <div class="drink-notes">Ilam Tea · Single Estate · 80°C Brew</div>
+          <div class="drink-footer"><span class="drink-price">NPR 180</span><a href="https://wa.me/9779802000123?text=Order%3A%20Ilam%20First%20Flush" class="item-order" target="_blank">Order</a></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ═══ BEER & SPIRITS ═══ -->
+  <div class="menu-cat-panel" id="cat-beer">
+    <div class="cat-banner">
+      <img src="https://images.unsplash.com/photo-1470337458703-46ad1756a187?w=1600&q=80" alt="Beer and spirits at Metro Bar Itahari" loading="lazy"/>
+      <div class="cat-banner-overlay"></div>
+      <div class="cat-banner-info">
+        <span class="eyebrow">The Bar Selection</span>
+        <h2 class="cat-name">Beer &amp; Spirits</h2>
+      </div>
+    </div>
+    <div class="subcat-tabs">
+      <button class="subcat-btn active" onclick="switchSubcat('beer','beer',this)">Beer</button>
+      <button class="subcat-btn" onclick="switchSubcat('beer','spirits',this)">Spirits</button>
+      <button class="subcat-btn" onclick="switchSubcat('beer','wine',this)">Wine</button>
+    </div>
+    <div class="subcat-panel active" id="beer-beer">
+      <h3>Beer Selection</h3>
+      <p class="subcat-desc">Domestic and imported beers, served cold. Because a great meal sometimes ends — or begins — with a cold one.</p>
+      <div class="drinks-grid">
+        <div class="drink-card">
+          <div class="drink-icon">E.</div>
+          <div class="drink-name">Everest Premium Lager</div>
+          <div class="drink-desc">Nepal's most iconic beer — crisp, clean, and cold. Brewed at altitude with Himalayan water, this lager has become synonymous with Nepali evenings and the feeling of finishing work on a warm Itahari evening. Available on tap or bottle.</div>
+          <div class="drink-notes">Nepali Lager · 5% ABV · Domestic</div>
+          <div class="drink-footer"><span class="drink-price">NPR 380</span><a href="https://wa.me/9779802000123?text=Order%3A%20Everest%20Beer" class="item-order" target="_blank">Order</a></div>
+        </div>
+        <div class="drink-card">
+          <div class="drink-icon">G.</div>
+          <div class="drink-name">Gorkha Premium</div>
+          <div class="drink-desc">A slightly fuller-bodied domestic lager with a clean malt character and crisp finish. The preferred pint of Metro's regulars who know their Nepali beer. Pairs exceptionally with buff choila, chicken wings, and anything from the tandoor.</div>
+          <div class="drink-notes">Nepali Lager · 5.3% ABV · Domestic</div>
+          <div class="drink-footer"><span class="drink-price">NPR 360</span><a href="https://wa.me/9779802000123?text=Order%3A%20Gorkha%20Beer" class="item-order" target="_blank">Order</a></div>
+        </div>
+        <div class="drink-card">
+          <div class="drink-icon">K.</div>
+          <div class="drink-name">Kingfisher Ultra</div>
+          <div class="drink-desc">India's premium lager — lighter and more refined than its standard sibling, with a subtle sweetness and clean cereal character. The choice when you want something familiar yet slightly elevated. Cold on tap or from the bottle at Metro's bar.</div>
+          <div class="drink-notes">Indian Lager · 4.8% ABV · Imported</div>
+          <div class="drink-footer"><span class="drink-price">NPR 400</span><a href="https://wa.me/9779802000123?text=Order%3A%20Kingfisher%20Ultra" class="item-order" target="_blank">Order</a></div>
+        </div>
+      </div>
+    </div>
+    <div class="subcat-panel" id="beer-spirits">
+      <h3>Spirits</h3>
+      <p class="subcat-desc">A curated shelf of domestic and international spirits — served neat, on ice, or as the foundation of a cocktail.</p>
+      <div class="drinks-grid">
+        <div class="drink-card">
+          <div class="drink-icon">K.</div>
+          <div class="drink-name">Khukuri Rum</div>
+          <div class="drink-desc">Nepal's beloved aged rum — rich, dark, and complex with notes of dried fruit, molasses, and vanilla. The rum that generations of Nepali men have poured on cold evenings and warm celebrations alike. Served neat with a cube, or in our signature Dharan Spice cocktail.</div>
+          <div class="drink-notes">Nepali Aged Rum · Per 30ml · Domestic</div>
+          <div class="drink-footer"><span class="drink-price">NPR 280</span><a href="https://wa.me/9779802000123?text=Order%3A%20Khukuri%20Rum" class="item-order" target="_blank">Order</a></div>
+        </div>
+        <div class="drink-card">
+          <div class="drink-icon">W.</div>
+          <div class="drink-name">Premium Whisky Pour</div>
+          <div class="drink-desc">Our whisky shelf includes domestic selections (Signature, Royal Challenge, Original Choice) and premium imports (Johnnie Walker Black, Glenfiddich 12). Ask your bartender for the current shelf and we will guide your choice based on palate and occasion.</div>
+          <div class="drink-notes">Domestic from NPR 240 / Premium from NPR 500 · Per 30ml</div>
+          <div class="drink-footer"><span class="drink-price">From NPR 240</span><a href="https://wa.me/9779802000123?text=Whisky%20selection%20query" class="item-order" target="_blank">Ask Bar</a></div>
+        </div>
+      </div>
+    </div>
+    <div class="subcat-panel" id="beer-wine">
+      <h3>Wine</h3>
+      <p class="subcat-desc">A focused wine list emphasising value and food-pairing excellence — from the vineyards of India and beyond.</p>
+      <div class="drinks-grid">
+        <div class="drink-card">
+          <div class="drink-icon">R.</div>
+          <div class="drink-name">Sula Rasa Red</div>
+          <div class="drink-desc">A soft, approachable Indian Cabernet-Shiraz blend from Nashik — ripe fruit, gentle tannins, and a smooth finish. India's most exported wine and for good reason. By the glass or bottle. Pairs brilliantly with our tandoor items and red meat curries.</div>
+          <div class="drink-notes">Cabernet · Shiraz · India · 13% ABV</div>
+          <div class="drink-footer"><span class="drink-price">NPR 480 / glass</span><a href="https://wa.me/9779802000123?text=Order%3A%20Sula%20Rasa%20Red" class="item-order" target="_blank">Order</a></div>
+        </div>
+        <div class="drink-card">
+          <div class="drink-icon">W.</div>
+          <div class="drink-name">Sula Sauvignon Blanc</div>
+          <div class="drink-desc">A fresh, grassy white with notes of gooseberry and citrus. Light-bodied and crisp — the ideal wine for our seafood preparations, the classic Caesar, and long, leisurely summer lunches on Metro's terrace. Served cold in long-stemmed wine glasses.</div>
+          <div class="drink-notes">Sauvignon Blanc · India · 12.5% ABV</div>
+          <div class="drink-footer"><span class="drink-price">NPR 460 / glass</span><a href="https://wa.me/9779802000123?text=Order%3A%20Sula%20Sauvignon%20Blanc" class="item-order" target="_blank">Order</a></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ═══ DESSERTS ═══ -->
+  <div class="menu-cat-panel" id="cat-desserts">
+    <div class="cat-banner">
+      <img src="https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?w=1600&q=80" alt="Desserts at Metro Restaurant Itahari" loading="lazy"/>
+      <div class="cat-banner-overlay"></div>
+      <div class="cat-banner-info">
+        <span class="eyebrow">The Sweet Finale</span>
+        <h2 class="cat-name">Desserts</h2>
+      </div>
+    </div>
+    <div class="subcat-tabs">
+      <button class="subcat-btn active" onclick="switchSubcat('desserts','western',this)">Signature Desserts</button>
+      <button class="subcat-btn" onclick="switchSubcat('desserts','indian',this)">Indian Sweets</button>
+    </div>
+    <div class="subcat-panel active" id="desserts-western">
+      <h3>Signature Desserts</h3>
+      <p class="subcat-desc">The final chapter of every Metro meal — sweet conclusions crafted with the same rigour we apply to every other course.</p>
+      <div class="items-grid">
+        <div class="item-card">
+          <div class="item-img"><img src="https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?w=600&q=80" alt="Warm Chocolate Fondant at Metro" loading="lazy"/><div class="item-badge">Signature</div></div>
+          <div class="item-body">
+            <h4 class="item-name">Warm Chocolate Fondant</h4>
+            <p class="item-desc">Rich dark chocolate cake with a molten, flowing centre — the dessert that Metro is perhaps most known for. Served warm, immediately, with a quenelle of house vanilla bean ice cream and candied hazelnuts. Please allow 12 minutes. Worth every second.</p>
+            <div class="item-tags"><span class="item-tag">Allow 12 min</span><span class="item-tag">Must Order</span></div>
+            <div class="item-footer"><span class="item-price">NPR 340</span><a href="https://wa.me/9779802000123?text=Order%3A%20Chocolate%20Fondant" class="item-order" target="_blank">Order</a></div>
+          </div>
+        </div>
+        <div class="item-card">
+          <div class="item-img"><img src="https://images.unsplash.com/photo-1574653853027-5382a3d23a15?w=600&q=80" alt="Mango Panna Cotta at Metro" loading="lazy"/></div>
+          <div class="item-body">
+            <h4 class="item-name">Mango Panna Cotta</h4>
+            <p class="item-desc">Silken vanilla panna cotta topped with a vivid Alphonso mango coulis and a garnish of micro mint. Delicate, cool, and impossibly smooth — a dessert that feels effortless but demands technique to perfect. A fitting tribute to Terai's finest fruit.</p>
+            <div class="item-tags"><span class="item-tag">Chilled</span><span class="item-tag">Light</span></div>
+            <div class="item-footer"><span class="item-price">NPR 300</span><a href="https://wa.me/9779802000123?text=Order%3A%20Mango%20Panna%20Cotta" class="item-order" target="_blank">Order</a></div>
+          </div>
+        </div>
+        <div class="item-card">
+          <div class="item-img"><img src="https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?w=600&q=80" alt="Kulfi at Metro Restaurant" loading="lazy"/></div>
+          <div class="item-body">
+            <h4 class="item-name">Rose &amp; Pistachio Kulfi</h4>
+            <p class="item-desc">House-made kulfi prepared in the traditional way — condensed milk frozen slowly on the stick with real rose water and crushed pistachios. Dense, creamy, and intensely flavoured, with none of the air-inflated lightness of commercial ice cream.</p>
+            <div class="item-tags"><span class="item-tag">Vegetarian</span><span class="item-tag">South Asian</span></div>
+            <div class="item-footer"><span class="item-price">NPR 260</span><a href="https://wa.me/9779802000123?text=Order%3A%20Kulfi" class="item-order" target="_blank">Order</a></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="subcat-panel" id="desserts-indian">
+      <h3>Indian Sweets</h3>
+      <p class="subcat-desc">The festive sweets of the Subcontinent — made in-house from traditional recipes with no shortcuts and no compromises.</p>
+      <div class="items-grid">
+        <div class="item-card">
+          <div class="item-img"><img src="https://images.unsplash.com/photo-1574653853027-5382a3d23a15?w=600&q=80" alt="Gulab Jamun at Metro Restaurant" loading="lazy"/></div>
+          <div class="item-body">
+            <h4 class="item-name">Gulab Jamun</h4>
+            <p class="item-desc">Soft khoya dumplings, dark and caramelised on the exterior, floating in a rose-and-cardamom syrup. Served warm with a scoop of vanilla ice cream that melts into the warm syrup. The dessert that unites all cultures at the Metro table — utterly irresistible.</p>
+            <div class="item-tags"><span class="item-tag">Vegetarian</span><span class="item-tag">Classic</span></div>
+            <div class="item-footer"><span class="item-price">NPR 220</span><a href="https://wa.me/9779802000123?text=Order%3A%20Gulab%20Jamun" class="item-order" target="_blank">Order</a></div>
+          </div>
+        </div>
+        <div class="item-card">
+          <div class="item-img"><img src="https://images.unsplash.com/photo-1585937421612-70a008356fbe?w=600&q=80" alt="Rasmalai at Metro Restaurant Itahari" loading="lazy"/></div>
+          <div class="item-body">
+            <h4 class="item-name">Rasmalai</h4>
+            <p class="item-desc">Delicate chhena patties poached in sweetened milk until pillow-soft, then soaked in chilled saffron-and-cardamom rabri. Garnished with crushed pistachios and dried rose petals. An aristocratic Bengali dessert that rewards patience — eat it cold, eat it slowly.</p>
+            <div class="item-tags"><span class="item-tag">Vegetarian</span><span class="item-tag">Chilled</span></div>
+            <div class="item-footer"><span class="item-price">NPR 280</span><a href="https://wa.me/9779802000123?text=Order%3A%20Rasmalai" class="item-order" target="_blank">Order</a></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</section>
+
+<!-- ══════════════════════════════
+     EVENTS
+══════════════════════════════ -->
+<section id="events" class="section" aria-label="Events — Metro Restaurant and Bar">
+  <div style="padding:140px 8% 60px">
+    <span class="eyebrow">Beyond the Dining Room</span>
+    <h1 class="section-title">Events &amp; <em>Nights</em></h1>
+  </div>
+  <div class="event-tabs">
+    <button class="ev-tab active" onclick="switchEvTab('upcoming',this)">Upcoming Events</button>
+    <button class="ev-tab" onclick="switchEvTab('past',this)">Past Events</button>
+  </div>
+  <div class="ev-panel active" id="ev-upcoming">
+    <div class="ev-card">
+      <div class="ev-banner">
+        <img src="https://images.unsplash.com/photo-1429962714451-bb934ecdc4ec?w=1600&q=80" alt="Saturday Night Live DJ Nite at Metro Bar Itahari March 2026" loading="lazy"/>
+        <div class="ev-banner-ov"></div>
+        <div class="ev-banner-info">
+          <div class="ev-date">Saturday, 7 March 2026 · 8:00 PM</div>
+          <h2 class="ev-title">Saturday Night Live — DJ Nite</h2>
+        </div>
+      </div>
+      <div class="ev-body">
+        <div class="ev-meta">
+          <div class="ev-meta-item"><div class="label">Date</div><div class="value">Saturday, 7 March 2026</div></div>
+          <div class="ev-meta-item"><div class="label">Time</div><div class="value">8:00 PM – 2:00 AM</div></div>
+          <div class="ev-meta-item"><div class="label">Entry</div><div class="value">NPR 500 (incl. welcome drink)</div></div>
+          <div class="ev-meta-item"><div class="label">Dress Code</div><div class="value">Smart Casual</div></div>
+        </div>
+        <p>Itahari's most anticipated weekly event returns with renewed energy. Metro's Saturday Night Live has been Sunsari District's premier nightlife institution since 2016 — a space where the city's professionals, creatives, and students converge every weekend to reclaim their evenings.</p>
+        <p>This edition features guest DJ Suresh K spinning a seamless set that moves through Nepali pop, Bollywood remixes, deep house, and commercial hip-hop. The floor opens at 8 PM with our cocktail hour — a curated selection of seasonal bar specials at special event pricing. The night reaches its full energy after 10 PM and rarely slows before closing.</p>
+        <p>Metro's event lighting system creates an atmosphere that feels genuinely different from any other venue in eastern Nepal — intelligent moving heads, a custom haze system, and the golden warmth of our signature bar create a backdrop worthy of any international venue. The sound system was upgraded in 2024 to a JBL professional array.</p>
+        <div class="ev-actions">
+          <a href="https://wa.me/?text=Saturday%20Night%20Live%20at%20Metro%20Bar%20Itahari%20-%207%20March!" class="share-btn" target="_blank" rel="noopener">Share WhatsApp</a>
+          <a href="https://facebook.com/sharer.php?u=https://metroitahari.com.np" class="share-btn" target="_blank" rel="noopener">Share Facebook</a>
+          <button class="gallery-btn" onclick="openGallery('nightlife')">Photo Gallery</button>
+          <a href="https://wa.me/9779802000123?text=Book%20ticket%20for%20Saturday%20Night%20Live%207%20March" class="btn-gold" target="_blank" rel="noopener" style="padding:10px 24px">Book Now</a>
+        </div>
+      </div>
+    </div>
+    <div class="ev-card">
+      <div class="ev-banner">
+        <img src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=1600&q=80" alt="Holi Colours and Cocktails event at Metro Itahari March 2026" loading="lazy"/>
+        <div class="ev-banner-ov"></div>
+        <div class="ev-banner-info">
+          <div class="ev-date">Friday, 14 March 2026 · 7:00 PM</div>
+          <h2 class="ev-title">Holi Special — Colours &amp; Cocktails</h2>
+        </div>
+      </div>
+      <div class="ev-body">
+        <div class="ev-meta">
+          <div class="ev-meta-item"><div class="label">Date</div><div class="value">Friday, 14 March 2026</div></div>
+          <div class="ev-meta-item"><div class="label">Time</div><div class="value">7:00 PM – 1:00 AM</div></div>
+          <div class="ev-meta-item"><div class="label">Entry</div><div class="value">NPR 800 (couple package available)</div></div>
+        </div>
+        <p>To celebrate the Festival of Colours, Metro transforms into a vibrant showcase of joy. The evening opens with a curated thali dinner featuring festive specialties — gujiya, thandai, festive sweets, and seasonal dishes prepared by our kitchen for this occasion alone.</p>
+        <p>As dinner transitions to the bar, our cocktail menu for the night draws from the thandai tradition — spiced milk, rose, and botanical infusions reimagined as cocktails and mocktails. Live dhol performance from 9 PM builds into a DJ set that carries the evening to its conclusion. Dress in white — we provide the colour.</p>
+        <div class="ev-actions">
+          <button class="gallery-btn" onclick="openGallery('food')">View Gallery</button>
+          <a href="https://wa.me/9779802000123?text=Book%20for%20Holi%20Special%2014%20March" class="btn-gold" target="_blank" rel="noopener" style="padding:10px 24px">Book Now</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="ev-panel" id="ev-past">
+    <div class="ev-card">
+      <div class="ev-banner">
+        <img src="https://images.unsplash.com/photo-1492684223066-81342ee5ff30?w=1600&q=80" alt="Metro New Year Eve Bash 2025 in Itahari" loading="lazy"/>
+        <div class="ev-banner-ov"></div>
+        <div class="ev-banner-info">
+          <div class="ev-date">Wednesday, 31 December 2025</div>
+          <h2 class="ev-title">Metro New Year Eve Bash 2025</h2>
+        </div>
+      </div>
+      <div class="ev-body">
+        <p>Our biggest night of 2025 exceeded every expectation. Over 400 guests filled both floors for a six-course set dinner followed by Itahari's finest countdown celebration. DJ Priya S and a live acoustic trio performed through the night. The midnight toast is still being talked about.</p>
+        <button class="gallery-btn" onclick="openGallery('nightlife')" style="margin-top:16px">View Gallery</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════
+     COMMUNITY
+══════════════════════════════ -->
+<section id="community" class="section" aria-label="Community">
+  <canvas id="community-canvas" style="position:fixed;inset:0;z-index:0;pointer-events:none;opacity:0;transition:opacity .6s" aria-hidden="true"></canvas>
+  <div class="comm-inner">
+    <div style="padding-bottom:48px">
+      <span class="eyebrow">Our Metro Family</span>
+      <h1 class="section-title">The <em>Community</em></h1>
+    </div>
+    <div id="name-prompt">
+      <h2 class="np-title">Join the <em>Conversation</em></h2>
+      <p class="np-sub">Share memories, photos, and moments from your Metro visits.</p>
+      <input type="text" class="name-input" id="username-input" placeholder="Enter your name" maxlength="40" aria-label="Enter your name"/>
+      <button class="btn-gold" onclick="joinCommunity()">Join Metro Community</button>
+    </div>
+    <div id="community-feed">
+      <div class="comm-topbar">
+        <div class="comm-greeting" id="comm-greeting">Welcome, <span id="greeting-name"></span></div>
+        <div class="sort-row">
+          <button class="sort-btn active" id="sort-recent" onclick="sortPosts('recent')">Recent</button>
+          <button class="sort-btn" id="sort-liked" onclick="sortPosts('liked')">Most Liked</button>
+          <button class="sort-btn" style="border-color:rgba(255,255,255,.1);color:var(--cream-faint)" onclick="leaveCommunity()">Change Name</button>
+        </div>
+      </div>
+      <div class="composer">
+        <textarea id="post-ta" placeholder="Share your Metro experience..." rows="3" aria-label="Write a post"></textarea>
+        <div id="img-preview" style="margin-top:8px"></div>
+        <div class="composer-bar">
+          <label class="img-lbl" for="img-upload" aria-label="Upload photo">Upload Photo</label>
+          <input type="file" id="img-upload" accept="image/*" onchange="previewImg(this)"/>
+          <button class="btn-gold" onclick="submitPost()" style="padding:10px 28px;font-size:.6rem">Post</button>
+        </div>
+      </div>
+      <div id="posts-container" aria-live="polite"></div>
+      <p class="comm-note">Posts are stored locally on your device for demonstration purposes.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════
+     CONTACT
+══════════════════════════════ -->
+<section id="contact" class="section" aria-label="Contact — Metro Restaurant and Bar">
+  <div style="padding:140px 8% 48px">
+    <span class="eyebrow">Find Us in Itahari</span>
+    <h1 class="section-title">Get in <em>Touch</em></h1>
+  </div>
+  <div class="contact-grid">
+    <div>
+      <div class="contact-block">
+        <h3>Address</h3>
+        <p>Mahendra Highway Chowk, Ward No. 5<br/>Itahari Sub-Metropolitan City<br/>Sunsari District, Koshi Province<br/>Nepal — 56705</p>
+        <p style="margin-top:8px;font-size:.82rem">Near Itahari Chowk. Accessible from Biratnagar (25km), Dharan (16km). Parking on premises.</p>
+      </div>
+      <div class="contact-rule"></div>
+      <div class="contact-block">
+        <h3>Reservations &amp; Enquiries</h3>
+        <a href="tel:+97725580123">+977-25-580123 (Landline)</a>
+        <a href="tel:+9779802000123">+977-980-2000123 (WhatsApp)</a>
+        <a href="mailto:hello@metroitahari.com.np">hello@metroitahari.com.np</a>
+      </div>
+      <div class="contact-rule"></div>
+      <div class="contact-block">
+        <h3>Business Hours</h3>
+        <table class="hours-tbl" aria-label="Opening hours">
+          <tr><td>Monday – Thursday</td><td>11:00 AM – 11:00 PM</td></tr>
+          <tr><td>Friday – Saturday</td><td>11:00 AM – 12:00 AM</td></tr>
+          <tr><td>Sunday</td><td>12:00 PM – 10:00 PM</td></tr>
+          <tr><td>Kitchen closes</td><td>1 hr before closing</td></tr>
+        </table>
+      </div>
+      <div class="contact-rule"></div>
+      <div class="contact-block">
+        <h3>Follow Metro</h3>
+        <div class="social-row">
+          <a href="https://facebook.com/metroitahari" class="social-lnk" target="_blank" rel="noopener">Facebook</a>
+          <a href="https://instagram.com/metro.itahari" class="social-lnk" target="_blank" rel="noopener">Instagram</a>
+          <a href="https://tiktok.com/@metro.itahari" class="social-lnk" target="_blank" rel="noopener">TikTok</a>
+        </div>
+      </div>
+      <div class="contact-rule"></div>
+      <div class="contact-block">
+        <h3 style="margin-bottom:16px">FAQ</h3>
+        <div class="faq-item">
+          <button class="faq-q" onclick="toggleFaq(this)" aria-expanded="false">Do you take advance reservations?<span class="faq-ico"></span></button>
+          <div class="faq-a">Yes, strongly recommended for Friday/Saturday evenings and all events. Book via WhatsApp (+977-980-2000123) or call us. We hold reservations 15 minutes past booked time.</div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q" onclick="toggleFaq(this)" aria-expanded="false">Age policy at the bar?<span class="faq-ico"></span></button>
+          <div class="faq-a">The bar requires guests to be 18+. Photo ID required on event nights. The restaurant floor is family-friendly until 9 PM on weekdays.</div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q" onclick="toggleFaq(this)" aria-expanded="false">Parking availability?<span class="faq-ico"></span></button>
+          <div class="faq-a">Dedicated parking for 30+ vehicles adjacent to the restaurant. Overflow on roadside during events. Arrive by 7:30 PM on event nights.</div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q" onclick="toggleFaq(this)" aria-expanded="false">Private dining and event hosting?<span class="faq-ico"></span></button>
+          <div class="faq-a">Yes. Private room for 10–50 guests; full venue hire up to 200. Contact hello@metroitahari.com.np for packages.</div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q" onclick="toggleFaq(this)" aria-expanded="false">Dietary requirements?<span class="faq-ico"></span></button>
+          <div class="faq-a">Extensive vegetarian, vegan, and Jain options across all cuisine categories. Inform your server of allergies and our kitchen will accommodate you.</div>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div class="map-wrap" style="margin-bottom:20px">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28682.59!2d87.2786!3d26.6651!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39ef6c5b0affffb7%3A0x0!2sItahari%2C%20Nepal!5e0!3m2!1sen!2snp!4v1700000000000" title="Metro Restaurant location in Itahari Nepal" loading="lazy" allowfullscreen referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+      <img src="https://images.unsplash.com/photo-1466978913421-dad2ebd01d17?w=800&q=80" alt="Elegant dining at Metro Restaurant Itahari" loading="lazy" style="width:100%;height:240px;object-fit:cover;filter:brightness(.7) saturate(.8);margin-bottom:0"/>
+      <div style="padding:24px;background:var(--surface2)">
+        <p style="font-family:var(--font-display);font-size:1.1rem;font-weight:300;color:var(--cream);margin-bottom:8px">Ready for Metro?</p>
+        <p style="font-family:var(--font-display);font-size:.9rem;font-weight:300;color:var(--cream-dim);margin-bottom:20px">Reserve a table, book an event, or simply say hello.</p>
+        <a href="https://wa.me/9779802000123?text=Hello%20Metro!" class="btn-gold" target="_blank" rel="noopener">Contact via WhatsApp</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<script>
+/* ══════════════════════════════════════
+   3D INTERACTIVE WEBGL BACKGROUND
+══════════════════════════════════════ */
+(function(){
+  const canvas = document.getElementById('webgl-bg');
+  const gl = canvas.getContext('webgl') || canvas.getContext('experimental-webgl');
+  if(!gl){ canvas.style.display='none'; return; }
+
+  let W, H, mx=0.5, my=0.5, tmx=0.5, tmy=0.5, t=0;
+
+  const vsSrc = `
+    attribute vec2 pos;
+    void main(){ gl_Position = vec4(pos, 0.0, 1.0); }
+  `;
+  const fsSrc = `
+    precision mediump float;
+    uniform vec2 res;
+    uniform float time;
+    uniform vec2 mouse;
+
+    float hash(vec2 p){ return fract(sin(dot(p, vec2(127.1,311.7)))*43758.5453); }
+    float noise(vec2 p){
+      vec2 i=floor(p), f=fract(p);
+      f=f*f*(3.0-2.0*f);
+      float a=hash(i), b=hash(i+vec2(1,0)), c=hash(i+vec2(0,1)), d=hash(i+vec2(1,1));
+      return mix(mix(a,b,f.x), mix(c,d,f.x), f.y);
+    }
+    float fbm(vec2 p){
+      float v=0.0, amp=0.5;
+      for(int i=0;i<5;i++){ v+=amp*noise(p); p*=2.1; amp*=0.5; }
+      return v;
+    }
+
+    void main(){
+      vec2 uv = gl_FragCoord.xy / res;
+      vec2 center = uv - 0.5;
+      float aspect = res.x / res.y;
+      center.x *= aspect;
+
+      // mouse influence
+      vec2 mOff = (mouse - 0.5) * 0.4;
+      vec2 distorted = uv + mOff * 0.08 * (1.0 - length(center) * 0.5);
+
+      // flowing noise layers
+      float n1 = fbm(distorted * 2.5 + vec2(time * 0.06, time * 0.04) + mOff * 0.6);
+      float n2 = fbm(distorted * 4.0 - vec2(time * 0.04, time * 0.07) - mOff * 0.4);
+      float n3 = fbm(distorted * 1.2 + vec2(time * 0.02, -time * 0.03));
+
+      // orbital glow points following mouse
+      vec2 orb1 = vec2(0.3 + mouse.x * 0.4, 0.4 + mouse.y * 0.3) - vec2(0.5);
+      orb1.x *= aspect;
+      float glow1 = 0.04 / (0.001 + dot(center - orb1, center - orb1) * 6.0);
+
+      vec2 orb2 = vec2(0.7 - mouse.x * 0.3, 0.6 - mouse.y * 0.4) - vec2(0.5);
+      orb2.x *= aspect;
+      float glow2 = 0.025 / (0.001 + dot(center - orb2, center - orb2) * 8.0);
+
+      // depth gradient
+      float depth = 1.0 - length(center) * 1.2;
+      depth = clamp(depth, 0.0, 1.0);
+
+      // color composition
+      vec3 colA = vec3(0.5, 0.32, 0.1);   // gold warm
+      vec3 colB = vec3(0.12, 0.06, 0.02); // deep brown
+      vec3 colC = vec3(0.35, 0.2, 0.05);  // amber mid
+
+      vec3 col = mix(colB, colA, n1 * 0.6);
+      col = mix(col, colC, n2 * 0.4);
+      col += n3 * 0.06;
+      col *= depth * 0.5 + 0.15;
+      col += vec3(glow1) * vec3(0.8, 0.55, 0.1);
+      col += vec3(glow2) * vec3(0.6, 0.4, 0.08);
+
+      // vignette
+      float vig = smoothstep(0.8, 0.3, length(center));
+      col *= vig * 0.6 + 0.1;
+
+      gl_FragColor = vec4(col, 1.0);
+    }
+  `;
+
+  function compile(type, src){
+    const s = gl.createShader(type);
+    gl.shaderSource(s, src); gl.compileShader(s); return s;
+  }
+  const prog = gl.createProgram();
+  gl.attachShader(prog, compile(gl.VERTEX_SHADER, vsSrc));
+  gl.attachShader(prog, compile(gl.FRAGMENT_SHADER, fsSrc));
+  gl.linkProgram(prog); gl.useProgram(prog);
+
+  const buf = gl.createBuffer();
+  gl.bindBuffer(gl.ARRAY_BUFFER, buf);
+  gl.bufferData(gl.ARRAY_BUFFER, new Float32Array([-1,-1,1,-1,-1,1,1,1]), gl.STATIC_DRAW);
+  const posLoc = gl.getAttribLocation(prog,'pos');
+  gl.enableVertexAttribArray(posLoc);
+  gl.vertexAttribPointer(posLoc,2,gl.FLOAT,false,0,0);
+
+  const uRes = gl.getUniformLocation(prog,'res');
+  const uTime = gl.getUniformLocation(prog,'time');
+  const uMouse = gl.getUniformLocation(prog,'mouse');
+
+  function resize(){
+    W = canvas.width = window.innerWidth;
+    H = canvas.height = window.innerHeight;
+    gl.viewport(0,0,W,H);
+  }
+  resize();
+  window.addEventListener('resize', resize);
+
+  document.addEventListener('mousemove', e=>{
+    tmx = e.clientX / window.innerWidth;
+    tmy = 1.0 - e.clientY / window.innerHeight;
+  });
+
+  let raf;
+  function render(){
+    mx += (tmx - mx) * 0.05;
+    my += (tmy - my) * 0.05;
+    t += 0.008;
+    gl.uniform2f(uRes, W, H);
+    gl.uniform1f(uTime, t);
+    gl.uniform2f(uMouse, mx, my);
+    gl.drawArrays(gl.TRIANGLE_STRIP, 0, 4);
+    raf = requestAnimationFrame(render);
+  }
+  render();
+})();
+
+/* ══════════════════════════════════════
+   CURSOR
+══════════════════════════════════════ */
+const cursor = document.getElementById('cursor');
+const cursorRing = document.getElementById('cursor-ring');
+let curX=0,curY=0,ringX=0,ringY=0;
+document.addEventListener('mousemove',e=>{ curX=e.clientX; curY=e.clientY; cursor.style.left=curX+'px'; cursor.style.top=curY+'px'; });
+(function animCursor(){
+  ringX += (curX-ringX)*0.1; ringY += (curY-ringY)*0.1;
+  cursorRing.style.left=ringX+'px'; cursorRing.style.top=ringY+'px';
+  requestAnimationFrame(animCursor);
+})();
+document.querySelectorAll('a,button,.item-card,.hlcard,.drink-card,.ev-card').forEach(el=>{
+  el.addEventListener('mouseenter',()=>document.body.classList.add('cursor-hover'));
+  el.addEventListener('mouseleave',()=>document.body.classList.remove('cursor-hover'));
+});
+
+/* ══════════════════════════════════════
+   LOADER
+══════════════════════════════════════ */
+window.addEventListener('load',()=>{
+  setTimeout(()=>{ document.getElementById('loader').classList.add('hide'); setTimeout(()=>document.getElementById('loader').style.display='none',1000); },2400);
+});
+
+/* ══════════════════════════════════════
+   PARTICLES
+══════════════════════════════════════ */
+const ptcWrap = document.getElementById('ptc-wrap');
+for(let i=0;i<22;i++){
+  const d = document.createElement('div'); d.className='p-dot';
+  const s=Math.random()*2.5+0.8;
+  d.style.cssText=`width:${s}px;height:${s}px;left:${Math.random()*100}%;bottom:${Math.random()*15}%;animation-duration:${Math.random()*14+10}s;animation-delay:${Math.random()*12}s`;
+  ptcWrap.appendChild(d);
+}
+
+/* ══════════════════════════════════════
+   HERO PARALLAX
+══════════════════════════════════════ */
+const heroBg = document.getElementById('hero-parallax');
+document.addEventListener('mousemove',e=>{
+  if(currentSection!=='home')return;
+  const rx=(e.clientX/window.innerWidth-0.5)*14;
+  const ry=(e.clientY/window.innerHeight-0.5)*10;
+  heroBg.style.transform=`scale(1.1) translate(${rx}px,${ry}px)`;
+});
+
+/* ══════════════════════════════════════
+   NAV
+══════════════════════════════════════ */
+let currentSection='home';
+const sections=['home','menu','events','community','contact'];
+
+function navigate(id){
+  if(currentSection===id)return;
+  const overlay=document.getElementById('transition-overlay');
+  const txt=document.getElementById('t-text');
+  overlay.style.opacity='1'; overlay.style.pointerEvents='all';
+  txt.classList.remove('show'); void txt.offsetWidth; txt.classList.add('show');
+  setTimeout(()=>{
+    document.getElementById(currentSection).classList.remove('active');
+    document.getElementById(id).classList.add('active');
+    currentSection=id; updatePill(id);
+    overlay.style.opacity='0'; overlay.style.pointerEvents='none';
+    window.scrollTo(0,0);
+    // community canvas
+    if(id==='community'){
+      document.getElementById('community-canvas').style.opacity='1';
+    } else {
+      document.getElementById('community-canvas').style.opacity='0';
+    }
+  },420);
+}
+
+function updatePill(id){
+  const links=document.querySelectorAll('.nav-links li a');
+  const pill=document.getElementById('nav-pill');
+  links.forEach(l=>{
+    l.classList.remove('active');
+    if(l.dataset.section===id){
+      l.classList.add('active');
+      const lr=l.getBoundingClientRect();
+      const pr=l.closest('.nav-links').getBoundingClientRect();
+      pill.style.left=(lr.left-pr.left)+'px';
+      pill.style.width=lr.width+'px';
+    }
+  });
+}
+
+window.addEventListener('load',()=>setTimeout(()=>updatePill('home'),100));
+window.addEventListener('scroll',()=>document.getElementById('nav').classList.toggle('scrolled',window.scrollY>30));
+
+const burger=document.getElementById('nav-burger');
+const mobileNav=document.getElementById('mobile-nav');
+burger.addEventListener('click',()=>{
+  const open=mobileNav.classList.toggle('open');
+  burger.classList.toggle('open',open);
+  burger.setAttribute('aria-expanded',open);
+});
+function closeMobileNav(){ mobileNav.classList.remove('open'); burger.classList.remove('open'); burger.setAttribute('aria-expanded','false'); }
+
+/* ══════════════════════════════════════
+   ENTER EXPERIENCE
+══════════════════════════════════════ */
+document.getElementById('enter-btn').addEventListener('click',()=>{
+  const overlay=document.getElementById('transition-overlay');
+  const txt=document.getElementById('t-text');
+  txt.textContent='Welcome Inside Metro';
+  overlay.style.opacity='1'; overlay.style.pointerEvents='all';
+  txt.classList.remove('show'); void txt.offsetWidth; txt.classList.add('show');
+  setTimeout(()=>{
+    document.getElementById('hero').style.display='none';
+    document.getElementById('phase-interior').classList.add('visible');
+    overlay.style.opacity='0'; overlay.style.pointerEvents='none';
+    window.scrollTo({top:0,behavior:'smooth'});
+  },650);
+});
+
+/* ══════════════════════════════════════
+   MENU SWITCHING
+══════════════════════════════════════ */
+function switchMainCat(cat, btn){
+  document.querySelectorAll('.menu-cat-panel').forEach(p=>p.classList.remove('active'));
+  document.querySelectorAll('.mcat-btn').forEach(b=>{b.classList.remove('active');b.setAttribute('aria-selected','false')});
+  document.getElementById('cat-'+cat).classList.add('active');
+  btn.classList.add('active'); btn.setAttribute('aria-selected','true');
+}
+
+function switchSubcat(prefix, sub, btn){
+  const panel = document.getElementById('cat-'+prefix);
+  panel.querySelectorAll('.subcat-panel').forEach(p=>p.classList.remove('active'));
+  panel.querySelectorAll('.subcat-btn').forEach(b=>{b.classList.remove('active')});
+  document.getElementById(prefix+'-'+sub).classList.add('active');
+  btn.classList.add('active');
+}
+
+/* ══════════════════════════════════════
+   EVENTS TABS
+══════════════════════════════════════ */
+function switchEvTab(type, btn){
+  document.querySelectorAll('.ev-panel').forEach(p=>p.classList.remove('active'));
+  document.querySelectorAll('.ev-tab').forEach(b=>{b.classList.remove('active')});
+  document.getElementById('ev-'+type).classList.add('active');
+  btn.classList.add('active');
+}
+
+/* ══════════════════════════════════════
+   FAQ
+══════════════════════════════════════ */
+function toggleFaq(btn){
+  const item=btn.closest('.faq-item');
+  const open=item.classList.toggle('open');
+  btn.setAttribute('aria-expanded',open);
+}
+
+/* ══════════════════════════════════════
+   GALLERY MODAL
+══════════════════════════════════════ */
+const galleries={
+  nightlife:['https://images.unsplash.com/photo-1470337458703-46ad1756a187?w=500&q=80','https://images.unsplash.com/photo-1429962714451-bb934ecdc4ec?w=500&q=80','https://images.unsplash.com/photo-1492684223066-81342ee5ff30?w=500&q=80','https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?w=500&q=80','https://images.unsplash.com/photo-1551024709-8f23befc6f87?w=500&q=80','https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=500&q=80'],
+  food:['https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=500&q=80','https://images.unsplash.com/photo-1585937421612-70a008356fbe?w=500&q=80','https://images.unsplash.com/photo-1565557623262-b51c2513a641?w=500&q=80','https://images.unsplash.com/photo-1603894584373-5ac82b2ae398?w=500&q=80','https://images.unsplash.com/photo-1567188040759-fb8a883dc6d8?w=500&q=80','https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=500&q=80']
+};
+function openGallery(type){
+  const modal=document.getElementById('gal-modal');
+  const grid=document.getElementById('gal-grid');
+  grid.innerHTML='';
+  (galleries[type]||galleries.nightlife).forEach((src,i)=>{
+    const img=document.createElement('img');
+    img.src=src; img.alt=`Metro Restaurant Itahari gallery ${i+1}`; img.loading='lazy';
+    grid.appendChild(img);
+  });
+  modal.classList.add('open'); document.body.style.overflow='hidden';
+}
+document.getElementById('gal-close').addEventListener('click',()=>{document.getElementById('gal-modal').classList.remove('open');document.body.style.overflow='';});
+document.getElementById('gal-modal').addEventListener('click',e=>{if(e.target===document.getElementById('gal-modal')){document.getElementById('gal-modal').classList.remove('open');document.body.style.overflow='';}});
+
+/* ══════════════════════════════════════
+   COMMUNITY
+══════════════════════════════════════ */
+let communityUser = localStorage.getItem('metro_user') || null;
+let currentSort = 'recent';
+
+// Community canvas gradient
+(function(){
+  const canvas = document.getElementById('community-canvas');
+  const ctx = canvas.getContext('2d');
+  let W,H,t=0;
+  function resize(){ W=canvas.width=window.innerWidth; H=canvas.height=window.innerHeight; }
+  resize(); window.addEventListener('resize',resize);
+  function draw(){
+    t+=0.003;
+    ctx.clearRect(0,0,W,H);
+    const g=ctx.createRadialGradient(W*(0.5+0.3*Math.sin(t)),H*(0.5+0.25*Math.cos(t*.7)),0,W*.5,H*.5,Math.max(W,H)*.75);
+    g.addColorStop(0,'rgba(201,161,74,.05)');
+    g.addColorStop(.5,'rgba(139,32,32,.025)');
+    g.addColorStop(1,'rgba(10,7,4,0)');
+    ctx.fillStyle=g; ctx.fillRect(0,0,W,H);
+    requestAnimationFrame(draw);
+  }
+  draw();
+})();
+
+function joinCommunity(){
+  const v=document.getElementById('username-input').value.trim();
+  if(!v)return;
+  communityUser=v; localStorage.setItem('metro_user',v); showFeed();
+}
+document.getElementById('username-input').addEventListener('keydown',e=>{ if(e.key==='Enter')joinCommunity(); });
+
+function showFeed(){
+  document.getElementById('name-prompt').style.display='none';
+  document.getElementById('community-feed').classList.add('show');
+  document.getElementById('greeting-name').textContent=communityUser;
+  renderPosts();
+}
+function leaveCommunity(){
+  localStorage.removeItem('metro_user'); communityUser=null;
+  document.getElementById('community-feed').classList.remove('show');
+  document.getElementById('name-prompt').style.display='flex';
+  document.getElementById('username-input').value='';
+}
+if(communityUser) showFeed();
+
+function getPosts(){ try{return JSON.parse(localStorage.getItem('metro_posts')||'[]');}catch{return[];} }
+function savePosts(p){ localStorage.setItem('metro_posts',JSON.stringify(p)); }
+
+let pendingImg=null;
+function previewImg(input){
+  const f=input.files[0]; if(!f)return;
+  const r=new FileReader();
+  r.onload=e=>{ pendingImg=e.target.result; document.getElementById('img-preview').innerHTML=`<img src="${pendingImg}" style="max-height:140px;max-width:100%;margin-top:6px;object-fit:cover" alt="preview"/>`; };
+  r.readAsDataURL(f);
+}
+function submitPost(){
+  const t=document.getElementById('post-ta').value.trim();
+  if(!t&&!pendingImg)return;
+  const posts=getPosts();
+  posts.unshift({id:Date.now(),author:communityUser,text:t,image:pendingImg,ts:new Date().toISOString(),likes:0,likedBy:[],comments:[]});
+  savePosts(posts);
+  document.getElementById('post-ta').value=''; document.getElementById('img-preview').innerHTML=''; pendingImg=null;
+  renderPosts();
+}
+function renderPosts(){
+  let posts=getPosts();
+  if(currentSort==='liked') posts=[...posts].sort((a,b)=>b.likes-a.likes);
+  const c=document.getElementById('posts-container'); c.innerHTML='';
+  if(!posts.length){ c.innerHTML=`<p style="font-family:var(--font-display);font-size:1rem;font-weight:300;color:var(--cream-faint);text-align:center;padding:40px 0">Be the first to share a Metro memory.</p>`; return; }
+  posts.forEach(p=>{
+    const liked=p.likedBy&&p.likedBy.includes(communityUser);
+    const card=document.createElement('div'); card.className='post-card';
+    card.innerHTML=`
+      <div class="post-header"><span class="post-author">${esc(p.author)}</span><span class="post-time">${ago(p.ts)}</span></div>
+      ${p.text?`<p class="post-text">${esc(p.text)}</p>`:''}
+      ${p.image?`<img src="${p.image}" class="post-img" alt="Post by ${esc(p.author)}" loading="lazy"/>`:''}
+      <div class="post-actions">
+        <button class="like-btn ${liked?'liked':''}" onclick="toggleLike(${p.id})">${liked?'★':'☆'}&nbsp;${p.likes}</button>
+        <button class="cmt-btn" onclick="toggleCmts(${p.id},this)">${p.comments.length} Comment${p.comments.length!==1?'s':''}</button>
+        ${p.author===communityUser?`<button class="del-btn" onclick="deletePost(${p.id})">Delete</button>`:''}
+      </div>
+      <div class="cmts-area" id="cmts-${p.id}">
+        ${p.comments.map(c=>`
+          <div class="cmt-item">
+            <div class="cmt-author">${esc(c.author)}</div>
+            <div class="cmt-text">${esc(c.text)}</div>
+            ${c.replies&&c.replies.length?`<div class="reply-zone">${c.replies.map(r=>`<div class="reply-item"><strong style="color:var(--gold);font-size:.56rem">${esc(r.author)}</strong> ${esc(r.text)}</div>`).join('')}</div>`:''}
+            <button style="font-size:.52rem;letter-spacing:.1em;text-transform:uppercase;background:none;border:none;color:var(--cream-faint);cursor:none;margin-top:4px;transition:color .2s" onmouseover="this.style.color='var(--gold)'" onmouseout="this.style.color='var(--cream-faint)'" onclick="showReply(${p.id},${c.id},this)">Reply</button>
+            <div id="ri-${p.id}-${c.id}"></div>
+          </div>`).join('')}
+        <input class="cmt-input" placeholder="Add a comment…" aria-label="Add comment" onkeydown="if(event.key==='Enter')addComment(${p.id},this)"/>
+      </div>`;
+    c.appendChild(card);
+  });
+}
+function esc(s){ return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;'); }
+function ago(iso){ const d=Date.now()-new Date(iso).getTime(),m=Math.floor(d/60000); if(m<1)return'Just now'; if(m<60)return`${m}m ago`; const h=Math.floor(m/60); if(h<24)return`${h}h ago`; return`${Math.floor(h/24)}d ago`; }
+function toggleLike(id){ const posts=getPosts(),p=posts.find(x=>x.id===id); if(!p)return; if(!p.likedBy)p.likedBy=[]; const i=p.likedBy.indexOf(communityUser); if(i===-1){p.likedBy.push(communityUser);p.likes++;}else{p.likedBy.splice(i,1);p.likes--;} savePosts(posts); renderPosts(); }
+function deletePost(id){ savePosts(getPosts().filter(p=>p.id!==id)); renderPosts(); }
+function toggleCmts(id,btn){ const a=document.getElementById('cmts-'+id); const o=a.classList.toggle('open'); btn.setAttribute('aria-expanded',o); }
+function addComment(pid,input){ const t=input.value.trim(); if(!t)return; const posts=getPosts(),p=posts.find(x=>x.id===pid); if(!p)return; p.comments.push({id:Date.now(),author:communityUser,text:t,replies:[]}); savePosts(posts); renderPosts(); setTimeout(()=>{ const a=document.getElementById('cmts-'+pid); if(a)a.classList.add('open'); },50); }
+function showReply(pid,cid,btn){ const c=document.getElementById(`ri-${pid}-${cid}`); if(c.innerHTML){c.style.display=c.style.display==='none'?'block':'none';return;} c.innerHTML=`<input class="cmt-input" placeholder="Reply…" style="font-size:.8rem" aria-label="Reply" onkeydown="if(event.key==='Enter')addReply(${pid},${cid},this)"/>`; c.querySelector('input').focus(); }
+function addReply(pid,cid,input){ const t=input.value.trim(); if(!t)return; const posts=getPosts(),p=posts.find(x=>x.id===pid); if(!p)return; const c=p.comments.find(c=>c.id===cid); if(!c)return; if(!c.replies)c.replies=[]; c.replies.push({author:communityUser,text:t}); savePosts(posts); renderPosts(); setTimeout(()=>{ const a=document.getElementById('cmts-'+pid); if(a)a.classList.add('open'); },50); }
+function sortPosts(type){ currentSort=type; document.querySelectorAll('.sort-btn').forEach(b=>b.classList.remove('active')); document.getElementById('sort-'+type).classList.add('active'); renderPosts(); }
+</script>
+</body>
+</html>
